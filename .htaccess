@@ -1,0 +1,16 @@
+# ----------------------------------------------------------------------
+# Display PHP errors during runtime
+# ----------------------------------------------------------------------
+php_flag display_errors on
+
+
+# ----------------------------------------------------------------------
+# Cross-domain AJAX requests
+# ----------------------------------------------------------------------
+# Serve cross-domain Ajax requests, disabled by default.
+# enable-cors.org
+# code.google.com/p/html5security/wiki/CrossOriginRequestSecurity
+
+#  <IfModule mod_headers.c>
+#    Header set Access-Control-Allow-Origin "*"
+#  </IfModule>

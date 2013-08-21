@@ -1,0 +1,94 @@
+@import "normalize";
+@import "typography";
+/*
+    Created by: Chloe Kaian Lam
+*/
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.portfolio {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.home, .projects, .love, .contact {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.home {
+  top: 0;
+}
+
+.projects {
+  top: 100%;
+}
+
+.love {
+  top: 200%;
+}
+
+.contact {
+  top: 300%;
+}
+
+[data-colour="blue"] {
+  background: #abf7ff;
+}
+
+[data-colour="yellow"] {
+  background: #ffd71a;
+}
+
+[data-colour="orange"] {
+  background: #f77a62;
+}
+
+[data-colour="lime"] {
+  background: #c2d51B;
+}
+
+
+
+
+/* ==|== Media Queries ======================================================
+    PLACEHOLDER Media Queries for Responsive Design.
+    Modify as content requires.
+
+    Notes:
+    MOBILE FIRST - use min-width (lowest first) and style upwards
+    MOBILE RESPONSIVE - use max-width (highest first) and style downwards
+
+    Never set breakpoints for devices, only when the design requires it.
+========================================================================== */
+
+@media (max-width: 1000px) {}
+
+
+/* ==|== print styles =======================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+  * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } /* Black prints faster: h5bp.com/s */
+  a, a:visited { text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  /* Don't show links for images, or javascript/internal links */
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; } /* h5bp.com/t */
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3 { page-break-after: avoid; }
+}
