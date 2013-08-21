@@ -54,7 +54,9 @@ table{border-collapse:collapse;border-spacing:0}
 .cf{zoom:1}
 .ir{background-color:transparent;border:0;overflow:hidden;*text-indent:-9999px}
 .ir:before{content:"";display:block;width:0;height:100%}
-h1{color:#fff}
+h1,h2,h3,h4,h5,h6{font-family:'Julius Sans One',sans-serif}
+p,a,span,div,label,input,td{font-family:'Varela Round',sans-serif;font-size:1em}
+h1{color:#fff;text-align:center;font-size:3em}
 body{width:100%;height:100%}
 .portfolio{width:100%;height:100%;position:absolute;top:0;left:0;bottom:0}
 .home,.projects,.love,.contact{width:100%;height:100%;position:absolute}
