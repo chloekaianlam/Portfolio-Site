@@ -1,9 +1,3 @@
-# Outside Line Bolierplate : HTML
-
-
-This is the default template used by all developers when starting new **HTML** projects/builds. Make sure you pull any latest
-changes to make sure you're using the most current and stable libraries. Remember to check your ```console``` for any messages/warnings with regards to setting up.
-
 ### Components
 
 * HTML5 Boilerplate 4.1.0
