@@ -4,25 +4,45 @@
 
 	<article class="home" data-page="home" data-colour="blue">
 		
-		<h1>Home</h1>
+		<div class="content">
+			<h1>Home</h1>
+
+			<p>There are plently of titles to describe what I do, currently I am a Front End Developer at <a href="#" data-hover="Saatchi &amp; Saatchi">Saatchi &amp; Saatchi</a> by day, also a Creative Freelancer by night and weekends. Yes, that's right! I dedicate pretty much all of my time designing and coding stuff, because I LOVE it.</p>
+			<p>In case you haven't noticed I like showcasing the countries I lived and worked in, I am currently living in London, loving every second of it. Obviously, there are other things I love and feel passionate about, if you are interested take a look at the <a href="#" data-hover="Love">Love</a> section of my little world.</p>
+		</div>
 
 	</article>
 
 	<article class="projects" data-page="projects" data-colour="yellow">
 		
-		<h1>Projects</h1>
+		<div class="content">
+			<h1>Projects</h1>
+
+			<p>There are plently of titles to describe what I do, currently I am a Front End Developer at <a href="#">Saatchi &amp; Saatchi</a> by day, also a Creative Freelancer by night and weekends. Yes, that's right! I dedicate pretty much all of my time designing and coding stuff, because I LOVE it.</p>
+			<p>In case you haven't noticed I like showcasing the countries I lived and worked in, I am currently living in London, loving every second of it. Obviously, there are other things I love and feel passionate about, if you are interested take a look at the <a href="#">Love</a> section of my little world.</p>
+		</div>
 		
 	</article>
 
 	<article class="love" data-page="love" data-colour="orange">
 		
-		<h1>Love</h1>
+		<div class="content">
+			<h1>Love</h1>
+
+			<p>There are plently of titles to describe what I do, currently I am a Front End Developer at <a href="#">Saatchi &amp; Saatchi</a> by day, also a Creative Freelancer by night and weekends. Yes, that's right! I dedicate pretty much all of my time designing and coding stuff, because I LOVE it.</p>
+			<p>In case you haven't noticed I like showcasing the countries I lived and worked in, I am currently living in London, loving every second of it. Obviously, there are other things I love and feel passionate about, if you are interested take a look at the <a href="#">Love</a> section of my little world.</p>
+		</div>
 		
 	</article>
 
 	<article class="contact" data-page="contact" data-colour="lime">
 		
-		<h1>Contact</h1>
+		<div class="content">
+			<h1>Contact</h1>
+
+			<p>There are plently of titles to describe what I do, currently I am a Front End Developer at <a href="#">Saatchi &amp; Saatchi</a> by day, also a Creative Freelancer by night and weekends. Yes, that's right! I dedicate pretty much all of my time designing and coding stuff, because I LOVE it.</p>
+			<p>In case you haven't noticed I like showcasing the countries I lived and worked in, I am currently living in London, loving every second of it. Obviously, there are other things I love and feel passionate about, if you are interested take a look at the <a href="#">Love</a> section of my little world.</p>
+		</div>
 		
 	</article>
 

@@ -55,17 +55,17 @@ table{border-collapse:collapse;border-spacing:0}
 .ir{background-color:transparent;border:0;overflow:hidden;*text-indent:-9999px}
 .ir:before{content:"";display:block;width:0;height:100%}
 h1,h2,h3,h4,h5,h6{font-family:'Julius Sans One',sans-serif}
-p,a,span,div,label,input,td{font-family:'Varela Round',sans-serif;font-size:1em}
+p,a,span,div,label,input,td{font-family:'Quicksand',sans-serif;font-size:.9em;color:#fff}
+a{text-decoration:none;color:#6a6a6a}
+a:before{color:#fff;content:attr(data-hover);position:absolute;margin-top:2px;transition:transform .3s ease-in-out,opacity .3s ease-in-out}
+a:hover:before,a:hover:focus{opacity:0;transform:scale(.9)}
 h1{color:#fff;text-align:center;font-size:3em}
-body{width:100%;height:100%}
+body{width:100%;height:100%;font-size:28px}
 .portfolio{width:100%;height:100%;position:absolute;top:0;left:0;bottom:0}
 .home,.projects,.love,.contact{width:100%;height:100%;position:absolute}
-.home{top:0}
-.projects{top:100%}
-.love{top:200%}
-.contact{top:300%}
-[data-colour="blue"]{background:#abf7ff}
-[data-colour="yellow"]{background:#ffd71a}
-[data-colour="orange"]{background:#f77a62}
-[data-colour="lime"]{background:#c2d51b}
+.home{top:0;background:#00d0e6}.home p{color:#009bab}
+.projects{top:100%;background:#ffd71a}.projects p{color:#cba700}
+.love{top:200%;background:#f77a62}.love p{color:#faa99a}
+.contact{top:300%;background:#c2d51b}.contact p{color:#92a114}
+.content{width:50%;margin:0 auto}
 @media (max-width:1000px){}@media print{*{background:transparent !important;color:#000 !important;text-shadow:none !important;filter:none !important;-ms-filter:none !important} a,a:visited{text-decoration:underline} a[href]:after{content:" (" attr(href) ")"} abbr[title]:after{content:" (" attr(title) ")"} .ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""} pre,blockquote{border:1px solid #999;page-break-inside:avoid} thead{display:table-header-group} tr,img{page-break-inside:avoid} img{max-width:100% !important} @page {margin:.5cm}p,h2,h3{orphans:3;widows:3} h2,h3{page-break-after:avoid}}
