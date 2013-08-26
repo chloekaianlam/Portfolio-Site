@@ -1,9 +1,10 @@
-@import "normalize";
-@import "typography";
-@import "variables";
 /*
     Created by: Chloe Kaian Lam
 */
+
+@import "normalize";
+@import "typography";
+@import "variables";
 
 body {
   width: 100%;
@@ -28,9 +29,26 @@ body {
 
 .home {
   top: 0;
-  background: @blue;
+  background: url(../image/background/home-bg.png) no-repeat @blue;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
   p { color: #009bab; }
+}
+
+.balloon {
+  width: 30%;
+  max-width: 500px;
+  position: absolute;
+  top: 10%;
+  right: 5%;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .projects {
@@ -54,9 +72,14 @@ body {
   p { color: #92a114; }
 }
 
-.content {
-  width: 50%;
+.wrapper {
+  width: 70%;
   margin: 0 auto;
+}
+
+.content {
+  width: 65%;
+  margin: 0 5% 0 0;
 }
 
 
