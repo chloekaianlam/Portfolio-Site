@@ -2,16 +2,14 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8317",
   "files" : {
-    "\/assets\/image\/background\/gherkin-outline.png" : {
+    "\/assets\/js\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/image\/background\/gherkin-outline.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/image\/background\/gherkin-outline.png",
-      "initialSize" : 0,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/assets\/js\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/assets\/image\/background\/air-balloon.png" : {
       "ignoreWasSetByUser" : 0,
@@ -44,45 +42,51 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/assets\/image\/background\/badges\/picture.jpg" : {
+    "\/assets\/image\/background\/gherkin-outline.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/image\/background\/badges\/picture.jpg",
+      "inputAbbreviatedPath" : "\/assets\/image\/background\/gherkin-outline.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/image\/background\/badges\/picture.jpg",
-      "initialSize" : 184398,
-      "fileType" : 4096
-    },
-    "\/assets\/image\/background\/air-balloon-illustration.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/image\/background\/air-balloon-illustration.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/image\/background\/air-balloon-illustration.png",
-      "initialSize" : 2956429,
+      "outputAbbreviatedPath" : "\/assets\/image\/background\/gherkin-outline.png",
+      "initialSize" : 0,
       "fileType" : 8192
     },
-    "\/assets\/image\/background\/london-eye.jpg" : {
+    "\/assets\/css\/less\/style.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/assets\/css\/less\/style.less",
+      "outputAbbreviatedPath" : "\/assets\/css\/style.css",
+      "outputPathIsSetByUser" : 1,
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 0,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 0,
+      "hidden" : 0,
+      "fileType" : 1,
+      "outputStyle" : 0,
+      "debugStyle" : 0,
+      "strictMath" : 0
+    },
+    "\/assets\/image\/background\/gherkin.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/image\/background\/london-eye.jpg",
+      "inputAbbreviatedPath" : "\/assets\/image\/background\/gherkin.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/image\/background\/london-eye.jpg",
-      "initialSize" : 1877703,
+      "outputAbbreviatedPath" : "\/assets\/image\/background\/gherkin.jpg",
+      "initialSize" : 2326528,
       "fileType" : 4096
     },
-    "\/assets\/fonts\/index.html" : {
+    "\/assets\/Backup\/Results - FEBE 2013 08-07 12.04.59.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/fonts\/index.html",
+      "inputAbbreviatedPath" : "\/assets\/Backup\/Results - FEBE 2013 08-07 12.04.59.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -97,14 +101,16 @@
       "outputAbbreviatedPath" : "\/assets\/js\/libs\/modernizr.min.js",
       "fileType" : 64
     },
-    "\/assets\/js\/index.html" : {
+    "\/assets\/image\/background\/air-balloon-illustration.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/js\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/assets\/image\/background\/air-balloon-illustration.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/image\/background\/air-balloon-illustration.png",
+      "initialSize" : 2956429,
+      "fileType" : 8192
     },
     "\/assets\/image\/favicon.png" : {
       "ignoreWasSetByUser" : 0,
@@ -128,16 +134,25 @@
       "outputAbbreviatedPath" : "\/assets\/js\/libs\/jquery.min.js",
       "fileType" : 64
     },
-    "\/assets\/image\/background\/home-bg.png" : {
+    "\/assets\/image\/background\/london-eye.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/image\/background\/home-bg.png",
+      "inputAbbreviatedPath" : "\/assets\/image\/background\/london-eye.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/image\/background\/home-bg.png",
-      "initialSize" : 0,
-      "fileType" : 8192
+      "outputAbbreviatedPath" : "\/assets\/image\/background\/london-eye.jpg",
+      "initialSize" : 1877703,
+      "fileType" : 4096
+    },
+    "\/assets\/fonts\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/fonts\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/assets\/image\/silhouette\/carriage.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -148,17 +163,6 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/assets\/image\/silhouette\/carriage.jpg",
       "initialSize" : 139794,
-      "fileType" : 4096
-    },
-    "\/assets\/image\/background\/phone-box.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/image\/background\/phone-box.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/image\/background\/phone-box.jpg",
-      "initialSize" : 753664,
       "fileType" : 4096
     },
     "\/assets\/image\/silhouette\/carriage.png" : {
@@ -201,15 +205,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/assets\/image\/background\/badges\/vintage_badges.jpg" : {
+    "\/assets\/image\/background\/tower-bridge.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/image\/background\/badges\/vintage_badges.jpg",
+      "inputAbbreviatedPath" : "\/assets\/image\/background\/tower-bridge.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/image\/background\/badges\/vintage_badges.jpg",
-      "initialSize" : 124624,
+      "outputAbbreviatedPath" : "\/assets\/image\/background\/tower-bridge.jpg",
+      "initialSize" : 4568644,
       "fileType" : 4096
     },
     "\/assets\/js\/min\/script.min.js" : {
@@ -223,24 +227,15 @@
       "outputAbbreviatedPath" : "\/assets\/js\/min\/script.min.min.js",
       "fileType" : 64
     },
-    "\/assets\/Backup\/Results - FEBE 2013 08-23 12.55.31.html" : {
+    "\/assets\/image\/background\/tower-bridge-2.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/Backup\/Results - FEBE 2013 08-23 12.55.31.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/assets\/image\/background\/tower-bridge.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/image\/background\/tower-bridge.jpg",
+      "inputAbbreviatedPath" : "\/assets\/image\/background\/tower-bridge-2.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/image\/background\/tower-bridge.jpg",
-      "initialSize" : 4568644,
+      "outputAbbreviatedPath" : "\/assets\/image\/background\/tower-bridge-2.jpg",
+      "initialSize" : 4751360,
       "fileType" : 4096
     },
     "\/assets\/image\/background\/london-eye-outline.png" : {
@@ -265,15 +260,24 @@
       "outputAbbreviatedPath" : "\/assets\/js\/libs\/min\/modernizr.min.min.js",
       "fileType" : 64
     },
-    "\/assets\/image\/background\/tower-bridge-2.jpg" : {
+    "\/assets\/Backup\/Results - FEBE 2013 08-23 12.55.31.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/image\/background\/tower-bridge-2.jpg",
+      "inputAbbreviatedPath" : "\/assets\/Backup\/Results - FEBE 2013 08-23 12.55.31.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/assets\/image\/background\/badges\/vintage_badges.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/image\/background\/badges\/vintage_badges.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/image\/background\/tower-bridge-2.jpg",
-      "initialSize" : 4751360,
+      "outputAbbreviatedPath" : "\/assets\/image\/background\/badges\/vintage_badges.jpg",
+      "initialSize" : 124624,
       "fileType" : 4096
     },
     "\/includes\/header.php" : {
@@ -410,6 +414,17 @@
       "outputAbbreviatedPath" : "\/Gruntfile.min.js",
       "fileType" : 64
     },
+    "\/assets\/image\/background\/phone-box.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/image\/background\/phone-box.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/image\/background\/phone-box.jpg",
+      "initialSize" : 753664,
+      "fileType" : 4096
+    },
     "\/assets\/css\/less\/variables.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/assets\/css\/less\/variables.less",
@@ -427,25 +442,16 @@
       "debugStyle" : 0,
       "strictMath" : 0
     },
-    "\/assets\/Backup\/Results - FEBE 2013 08-07 12.04.59.html" : {
+    "\/assets\/image\/background\/home-bg.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/Backup\/Results - FEBE 2013 08-07 12.04.59.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/assets\/image\/background\/gherkin.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/image\/background\/gherkin.jpg",
+      "inputAbbreviatedPath" : "\/assets\/image\/background\/home-bg.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/image\/background\/gherkin.jpg",
-      "initialSize" : 2326528,
-      "fileType" : 4096
+      "outputAbbreviatedPath" : "\/assets\/image\/background\/home-bg.png",
+      "initialSize" : 0,
+      "fileType" : 8192
     },
     "\/assets\/image\/background\/st-pauls-outline.png" : {
       "ignoreWasSetByUser" : 0,
@@ -478,22 +484,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/assets\/css\/less\/style.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/assets\/css\/less\/style.less",
-      "outputAbbreviatedPath" : "\/assets\/css\/style.css",
-      "outputPathIsSetByUser" : 1,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 0,
-      "strictImports" : 0,
+    "\/assets\/image\/background\/badges\/picture.jpg" : {
       "ignoreWasSetByUser" : 0,
-      "shouldRunBless" : 0,
+      "ignore" : 0,
       "hidden" : 0,
-      "fileType" : 1,
-      "outputStyle" : 0,
-      "debugStyle" : 0,
-      "strictMath" : 0
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/image\/background\/badges\/picture.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/image\/background\/badges\/picture.jpg",
+      "initialSize" : 184398,
+      "fileType" : 4096
     }
   },
   "manualImportLinks" : [
