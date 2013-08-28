@@ -8,14 +8,14 @@
 			<div class="content">
 				<h1>Home</h1>
 
-				<p>London based Web Developer and Designer. Hi, my name is Chloe. Ultimately I design and code for the web, dedicating most of my time making web related stuff pretty, functional and usable, because I LOVE it.</p>
-				<p>Obviously, there are other things I love and feel passionate about, if you are interested take a look at <a href="#" data-hover="Love">Love</a> of my little world.</p>
+				<p>London based Web Developer and Designer. Hi, my name is Chloe. I design and code for the web - dedicating most of my time making functional, usable and pretty websites, because I LOVE it.</p>
+				<p>Obviously, there are other things I love and feel passionate about, if you are interested take a look at <a href="#" data-hover="what I Love">what I Love</a> in my little world.</p>
 			</div>
 		</div>
 
 	</article>
 
-	<figure class="balloon"><img src="../assets/image/background/air-balloon.png" /></figure>
+	<figure class="air-balloon"><img src="../assets/image/background/air-balloon.png" /></figure>
 
 	<article class="projects" data-page="projects" data-colour="yellow">
 		
