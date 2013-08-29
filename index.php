@@ -3,6 +3,8 @@
 <section class="portfolio">
 
 	<article class="home" data-page="home" data-colour="blue">
+
+		<img class="home-bg" src="assets/image/background/home-bg.png" />
 		
 		<div class="wrapper">
 			<div class="content">
@@ -18,6 +20,8 @@
 	<figure class="air-balloon"><img src="../assets/image/background/air-balloon.png" /></figure>
 
 	<article class="projects" data-page="projects" data-colour="yellow">
+
+		<img class="project-bg" src="assets/image/background/projects-bg.png" />
 		
 		<div class="wrapper">
 			<h1>Projects</h1>
@@ -41,11 +45,17 @@
 
 	<article class="love" data-page="love" data-colour="orange">
 		
-		<div class="wrapper">
+		<div class="love-bubble">
 			<h1>Love</h1>
 
-			<p>There are plently of titles to describe what I do, currently I am a Front End Developer at <a href="#">Saatchi &amp; Saatchi</a> by day, also a Creative Freelancer by night and weekends. Yes, that's right! I dedicate pretty much all of my time designing and coding stuff, because I LOVE it.</p>
-			<p>In case you haven't noticed I like showcasing the countries I lived and worked in, I am currently living in London, loving every second of it. Obviously, there are other things I love and feel passionate about, if you are interested take a look at the <a href="#">Love</a> section of my little world.</p>
+			<img class="cook" src="http://lorempixel.com/200/200/animals/" />
+			<img class="bake" src="http://lorempixel.com/100/100/animals/" />
+			<img class="photography" src="http://lorempixel.com/120/120/animals/" />
+			<img class="html" src="http://lorempixel.com/150/150/animals/" />
+			<img class="css" src="http://lorempixel.com/200/200/animals/" />
+			<img class="javascript" src="http://lorempixel.com/180/180/animals/" />
+			<img class="video" src="http://lorempixel.com/80/80/animals/" />
+			<img class="art" src="http://lorempixel.com/230/230/animals/" />
 		</div>
 
 		<figure></figure>
