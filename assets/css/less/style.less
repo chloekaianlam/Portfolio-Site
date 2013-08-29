@@ -54,29 +54,11 @@ body {
   }
 }
 
-.projects {
-  top: 100%;
-  background: url(../image/background/projects-bg.png) no-repeat center @yellow;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-  p { color: #cba700; }
-}
-
 .love {
   top: 200%;
   background: @orange;
 
   p { color: #faa99a; }
-}
-
-.contact {
-  top: 300%;
-  background: @lime;
-
-  p { color: #92a114; }
 }
 
 .client {
@@ -88,6 +70,7 @@ body {
 
 .wrapper {
   width: 70%;
+  max-width: 960px;
   margin: 0 auto;
 }
 
@@ -96,6 +79,91 @@ body {
   margin: 0 5% 0 0;
 }
 
+.projects {
+  top: 100%;
+  background: url(../image/background/projects-bg.png) no-repeat center @yellow;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  p { color: #cba700; }
+}
+
+.project-grid {
+  /* Prevent vertical gaps */
+  line-height: 0;
+  -webkit-column-count: 3;
+  -webkit-column-gap:   20px;
+  -moz-column-count:    3;
+  -moz-column-gap:      20px;
+  column-count:         3;
+  column-gap:           20px;
+
+  img {
+    .border-radius(10px);
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    background-clip: padding-box;
+    background-color: white;
+    border: 8px solid rgba(0, 0, 0, 0.3);
+  }
+}
+
+.contact {
+  top: 300%;
+  background: @lime;
+
+  p, label { color: #92a114; }
+}
+
+form {
+  width: 50%;
+  float: right;
+}
+
+input, textarea {
+  .border-radius(5px);
+  background: #3e3e3d;
+  min-height: 50px;
+  border: none;
+  width: 100%;
+  margin: 10px 0;
+  padding: 0 10px;
+}
+
+.icon {
+  float: right;
+  position: relative;
+  right: -22px;
+}
+
+.button {
+  .border-radius(5px);
+  .box-shadow(3px 3px 5px 1px #727e10);
+  width: 250px;
+  height: 30px;
+  background: #636d0d;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.client-grid {
+  line-height: 0;
+  -webkit-column-count: 5;
+  -webkit-column-gap:   20px;
+  -moz-column-count:    5;
+  -moz-column-gap:      20px;
+  column-count:         5;
+  column-gap:           20px;
+
+  img {
+    width: 100%;
+    height: auto;
+    margin: 20px 20px 20px 0;
+  }
+}
 
 @media (max-width: 1000px) {}
 
