@@ -67,7 +67,7 @@
 		<div class="wrapper">
 			<h1>Contact</h1>
 
-			<form>
+			<form action="send.php" method="POST">
 
 				<label for="name">Name:</label><img class="icon" src="assets/image/icon/pencil.png" />
 				<input type="text" name="name" placeholder="Name" />
