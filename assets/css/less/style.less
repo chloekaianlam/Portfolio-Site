@@ -24,26 +24,21 @@ body {
   bottom: 0;
 }
 
-.home, .projects, .love, .contact, .client {
+.home, .projects, .love, .contact, .client, footer {
   width: 100%;
   height: 100%;
   position: absolute;
-  z-index: -200;
 }
 
 .home {
   top: 0;
-  background: @blue;
+  background: url(../image/background/home-bg.png) no-repeat center @blue;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
   p { color: #009bab; }
-}
-
-.home-bg {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  z-index: -100;
 }
 
 .air-balloon {
@@ -69,11 +64,16 @@ body {
 .content {
   width: 65%;
   margin: 0 5% 0 0;
+  word-wrap: break-word;
 }
 
 .projects {
   top: 100%;
-  background: @yellow;
+  background: url(../image/background/projects-bg.png) no-repeat center @yellow;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
   p { color: #cba700; }
 }
@@ -83,7 +83,6 @@ body {
   bottom: 0;
   left: 0;
   width: 100%;
-  z-index: -100;
 }
 
 .project-grid {
@@ -109,18 +108,29 @@ body {
 
 .love {
   top: 200%;
-  background: @orange;
+  background: url(../image/background/love-bg.png) no-repeat center @orange;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
-  p { color: #faa99a; }
+  p { color: #d97a00; }
 }
 
 .love-bubble {
-  width: 90%;
-  max-width: 960px;
-  margin: 0 auto;
+  line-height: 0;
+  -webkit-column-count: 3;
+  -webkit-column-gap:   150px;
+  -moz-column-count:    3;
+  -moz-column-gap:      150px;
+  column-count:         3;
+  column-gap:           150px;
 
   img {
     .border-radius(100%);
+    width: 100%;
+    height: auto;
+    margin: 0 0 20px 0;
     background-clip: padding-box;
     background-color: white;
     border: 8px solid rgba(0, 0, 0, 0.3);

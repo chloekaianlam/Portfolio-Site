@@ -3,39 +3,33 @@
 <section class="portfolio">
 
 	<article class="home" data-page="home" data-colour="blue">
-
-		<img class="home-bg" src="assets/image/background/home-bg.png" />
 		
 		<div class="wrapper">
 			<div class="content">
 				<h1>Home</h1>
 
-				<p>London based Web Developer and Designer. Hi, my name is Chloe. I design and code for the web - dedicating most of my time making functional, usable and pretty websites, because I LOVE it.</p>
+				<p>London based Web Developer and Designer. Hi, my name is Chloe. I design and code for the web - dedicating most of my time making functional, usable and pretty websites, and I LOVE it.</p>
+				<p>Since I have started my epic journey, I have been involved in some of the most <a href="#" data-hover="amazing projects">amazing projects</a>. I always build with few basic principles in mind (code standard, usability and progressive enhancement), I also like to experiment with new design or development techniques, never to good (old) to learn a new trick. 
 				<p>Obviously, there are other things I love and feel passionate about, if you are interested take a look at <a href="#" data-hover="what I Love">what I Love</a> in my little world.</p>
 			</div>
 		</div>
 
 	</article>
 
-	<figure class="air-balloon"><img src="../assets/image/background/air-balloon.png" /></figure>
+	<figure class="air-balloon"><img src="../assets/image/animations/air-balloon.png" /></figure>
 
 	<article class="projects" data-page="projects" data-colour="yellow">
-
-		<img class="project-bg" src="assets/image/background/projects-bg.png" />
 		
 		<div class="wrapper">
 			<h1>Projects</h1>
 
 			<div class="project-grid">
-				<img src="http://lorempixel.com/300/200/animals/" />
-				<img src="http://lorempixel.com/300/200/animals/" />
-				<img src="http://lorempixel.com/300/200/animals/" />
-				<img src="http://lorempixel.com/300/200/animals/" />
-				<img src="http://lorempixel.com/300/200/animals/" />
-				<img src="http://lorempixel.com/300/200/animals/" />
-				<img src="http://lorempixel.com/300/200/animals/" />
-				<img src="http://lorempixel.com/300/200/animals/" />
-				<img src="http://lorempixel.com/300/200/animals/" />
+				<img src="http://lorempixel.com/450/300/animals/" /><!--candyland-->
+				<img src="http://lorempixel.com/450/300/animals/" /><!--rekorderlig-->
+				<img src="http://lorempixel.com/450/300/animals/" /><!--love cravendale-->
+				<img src="http://lorempixel.com/450/300/animals/" /><!--csw-->
+				<img src="http://lorempixel.com/450/300/animals/" /><!--conference-->
+				<img src="http://lorempixel.com/450/300/animals/" /><!--shaun the sheep-->
 			</div>
 		</div>
 
@@ -45,17 +39,20 @@
 
 	<article class="love" data-page="love" data-colour="orange">
 		
-		<div class="love-bubble">
+		<div class="wrapper">
 			<h1>Love</h1>
 
-			<img class="cook" src="http://lorempixel.com/200/200/animals/" />
-			<img class="bake" src="http://lorempixel.com/100/100/animals/" />
-			<img class="photography" src="http://lorempixel.com/120/120/animals/" />
-			<img class="html" src="http://lorempixel.com/150/150/animals/" />
-			<img class="css" src="http://lorempixel.com/200/200/animals/" />
-			<img class="javascript" src="http://lorempixel.com/180/180/animals/" />
-			<img class="video" src="http://lorempixel.com/80/80/animals/" />
-			<img class="art" src="http://lorempixel.com/230/230/animals/" />
+			<div class="love-bubble">
+				<img class="cook" src="http://lorempixel.com/200/200/animals/" />
+				<img class="bake" src="http://lorempixel.com/200/200/animals/" />
+				<img class="photography" src="http://lorempixel.com/200/200/animals/" />
+				<img class="html" src="http://lorempixel.com/200/200/animals/" />
+				<img class="css" src="http://lorempixel.com/200/200/animals/" />
+				<img class="javascript" src="http://lorempixel.com/200/200/animals/" />
+				<img class="video" src="http://lorempixel.com/200/200/animals/" />
+				<img class="art" src="http://lorempixel.com/200/200/animals/" />
+				<img class="art" src="http://lorempixel.com/200/200/animals/" />
+			</div>
 		</div>
 
 		<figure></figure>
