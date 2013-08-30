@@ -9,7 +9,7 @@
 				<h1>Home</h1>
 
 				<p>London based Web Developer and Designer. Hi, my name is Chloe. I design and code for the web - dedicating most of my time making functional, usable and pretty websites, and I LOVE it.</p>
-				<p>Since I have started my epic journey, I have been involved in some of the most <a href="#" data-hover="amazing projects">amazing projects</a>. I always build with few basic principles in mind (code standard, usability and progressive enhancement), I also like to experiment with new design or development techniques, never to good (old) to learn a new trick. 
+				<p>Since I have started my epic journey, I have been involved in some of the most <a href="#" data-hover="amazing projects">amazing projects</a>. I always build with few basic principles in mind - code standard, usability and progressive enhancement, I also like to experiment with new techniques, never too good (old) to learn a new trick. 
 				<p>Obviously, there are other things I love and feel passionate about, if you are interested take a look at <a href="#" data-hover="what I Love">what I Love</a> in my little world.</p>
 			</div>
 		</div>
