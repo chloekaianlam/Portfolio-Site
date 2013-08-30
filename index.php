@@ -62,13 +62,13 @@
 
 			<form action="send.php" method="POST">
 
-				<label for="name">Name:</label><img class="icon" src="assets/image/icon/pencil.png" />
+				<label for="name">Name:</label><img class="icon" src="assets/image/icons/pencil.png" />
 				<input type="text" name="name" placeholder="Name" />
 
-				<label for="email">Email:</label><img class="icon" src="assets/image/icon/email.png" />
+				<label for="email">Email:</label><img class="icon" src="assets/image/icons/email.png" />
 				<input type="text" name="email" placeholder="Email" />
 
-				<label for="message">Message:</label><img class="icon" src="assets/image/icon/message.png" />
+				<label for="message">Message:</label><img class="icon" src="assets/image/icons/message.png" />
 				<textarea rows="8"></textarea>
 
 				<input type="submit" value="Send" class="button" />
