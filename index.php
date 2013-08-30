@@ -32,8 +32,6 @@
 				<img src="http://lorempixel.com/450/300/animals/" /><!--shaun the sheep-->
 			</div>
 		</div>
-
-		<figure></figure>
 		
 	</article>
 
@@ -54,8 +52,6 @@
 				<img class="art" src="http://lorempixel.com/200/200/animals/" />
 			</div>
 		</div>
-
-		<figure></figure>
 		
 	</article>
 
@@ -80,7 +76,7 @@
 			</form>
 		</div>
 
-		<figure></figure>
+		<figure class="pencil"><img src="assets/image/animations/pencil.png" /></figure>
 		
 	</article>
 
