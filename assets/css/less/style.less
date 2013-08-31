@@ -56,8 +56,8 @@ body {
 }
 
 .wrapper {
-  width: 70%;
-  max-width: 960px;
+  width: 80%;
+  //max-width: 960px;
   margin: 0 auto;
 }
 
@@ -69,6 +69,7 @@ body {
 
 .projects {
   top: 100%;
+  height: 200%;
   background: url(../image/background/projects-bg.png) no-repeat center @yellow;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -86,28 +87,29 @@ body {
 }
 
 .project-grid {
-  /* Prevent vertical gaps */
-  line-height: 0;
-  -webkit-column-count: 3;
-  -webkit-column-gap:   20px;
-  -moz-column-count:    3;
-  -moz-column-gap:      20px;
-  column-count:         3;
-  column-gap:           20px;
+  width: 90%;
+  margin: 0 auto;
 
-  img {
+  .project-item {
     .border-radius(10px);
-    width: 100%;
+    width: 30%;
     height: auto;
-    margin-bottom: 20px;
+    float: left;
+    margin: 0 1% 20px;
+    display: block;
     background-clip: padding-box;
-    background-color: white;
-    border: 8px solid rgba(0, 0, 0, 0.3);
+    background-color: #deb700;
+    border: 8px solid rgba(0, 0, 0, 0.14);
+
+    img {
+      width: 100%;
+      height: auto;
+    }
   }
 }
 
 .love {
-  top: 200%;
+  top: 300%;
   background: url(../image/background/love-bg.png) no-repeat center @orange;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -138,7 +140,7 @@ body {
 }
 
 .contact {
-  top: 300%;
+  top: 400%;
   background: @lime;
 
   p, label { color: #92a114; }
@@ -185,8 +187,16 @@ input, textarea {
   }
 }
 
+.balloons {
+  width: 30%;
+  max-width: 400px;
+  position: relative;
+  left: 10%;
+  .animation(10s ease-in-out float-up infinite alternate);
+}
+
 .client {
-  top: 400%;
+  top: 500%;
   background: @purple;
 
   p { color: #705674; }

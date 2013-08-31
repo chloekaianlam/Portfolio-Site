@@ -20,18 +20,39 @@
 
 	<article class="projects" data-page="projects" data-colour="yellow">
 		
-		<div class="wrapper">
+		<div class="project-grid">
 			<h1>Projects</h1>
 
-			<div class="project-grid">
-				<img src="http://lorempixel.com/450/300/animals/" /><!--candyland-->
-				<img src="http://lorempixel.com/450/300/animals/" /><!--rekorderlig-->
-				<img src="http://lorempixel.com/450/300/animals/" /><!--love cravendale-->
-				<img src="http://lorempixel.com/450/300/animals/" /><!--csw-->
-				<img src="http://lorempixel.com/450/300/animals/" /><!--conference-->
-				<img src="http://lorempixel.com/450/300/animals/" /><!--shaun the sheep-->
-			</div>
-
+				<div class="project-item">
+					<img src="http://lorempixel.com/300/200/animals/" /><!--candyland-->
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+					<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+				</div>
+				<div class="project-item">
+					<img src="http://lorempixel.com/300/200/animals/" /><!--rekorderlig-->
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+					<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+				</div>
+				<div class="project-item">
+					<img src="http://lorempixel.com/300/200/animals/" /><!--love cravendale-->
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+					<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+				</div>
+				<div class="project-item">
+					<img src="http://lorempixel.com/300/200/animals/" /><!--csw-->
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+					<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+				</div>
+				<div class="project-item">
+					<img src="http://lorempixel.com/300/200/animals/" /><!--conference-->
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+					<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+				</div>
+				<div class="project-item">
+					<img src="http://lorempixel.com/300/200/animals/" /><!--shaun the sheep-->
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+					<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+				</div>
 		</div>
 		
 	</article>
@@ -70,12 +91,14 @@
 				<input type="text" name="email" placeholder="Email" />
 
 				<label for="message">Message:</label><img class="icon" src="assets/image/icons/message.png" />
-				<textarea rows="8"></textarea>
+				<textarea rows="5"></textarea>
 
 				<input type="submit" value="Send" class="button" />
 
 			</form>
 		</div>
+		
+		<figure class="balloons"><img src="assets/image/animations/balloons.png" /></figure>
 
 		<figure class="pencil"><img src="assets/image/animations/pencil.png" /></figure>
 		
