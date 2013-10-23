@@ -79,7 +79,7 @@ a:focus,a:active,button::-moz-focus-inner,input[type="reset"]::-moz-focus-inner,
 .project-grid:after{display:block;clear:both}
 .project-item{-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;-webkit-background-clip:padding-box;-moz-background-clip:padding;width:28%;height:auto;float:left;margin:0 1% 20px;display:block;background-clip:padding-box;background-color:rgba(0,0,0,0.4);border:8px solid rgba(0,0,0,0.4)}.project-item img{width:95%;height:auto;padding:2.5%}
 .project-item .text{padding:0 2.5%}
-.love{top:240%;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover}.love p{color:#d97a00}
+.love{top:240%;background:#ffa128}.love p{color:#d97a00}
 .love-bubble .bubble{-webkit-border-radius:100%;-moz-border-radius:100%;border-radius:100%;-webkit-background-clip:padding-box;-moz-background-clip:padding;width:33%;height:33%;margin:0 0 20px 0;background-clip:padding-box;background-color:rgba(0,0,0,0.3);border:8px solid rgba(0,0,0,0.3)}
 .contact{top:340%;background:#c2d51b}.contact p,.contact label{color:#92a114}
 form{width:50%;max-width:500px;float:right}

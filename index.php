@@ -8,8 +8,8 @@
 			<div class="content">
 				<h1>Home</h1>
 
-				<p>London based Web Designer and Developer. I design and code for the web - dedicating most of my time making functional, usable and pretty websites, and I LOVE it.</p>
-				<p>Since I have started my epic journey, I have been involved in some of the most <a href="#" data-hover="amazing projects">amazing projects</a>. I always build with few basic principles in mind - code standard, usability and progressive enhancement, I also like to experiment with new techniques, never too good (old) to learn a new trick. 
+				<p>Hi, I am Chloe. London based Web Designer and Developer, I also like to be called Creative Technologist. I design and code for the web - dedicating most of my time building functional, usable and pretty websites, and I LOVE it.</p>
+				<p>Since I have started my epic journey, I have been involved in some <a href="#" data-hover="amazing projects">amazing projects</a>. Always build with few basic principles in mind - code standards, usability and progressive enhancement. I also like to experiment with new techniques, play with emerging technologies, strong believer of never too good (old) to learn a new trick. 
 				<p>Obviously, there are other things I love and feel passionate about, take a look at <a href="#" data-hover="what I Love">what I Love</a> in my little world if you are interested.</p>
 			</div>
 		</div>
