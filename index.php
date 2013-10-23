@@ -8,9 +8,9 @@
 			<div class="content">
 				<h1>Home</h1>
 
-				<p>London based Web Developer and Designer. Hi, my name is Chloe. I design and code for the web - dedicating most of my time making functional, usable and pretty websites, and I LOVE it.</p>
+				<p>London based Web Designer and Developer. I design and code for the web - dedicating most of my time making functional, usable and pretty websites, and I LOVE it.</p>
 				<p>Since I have started my epic journey, I have been involved in some of the most <a href="#" data-hover="amazing projects">amazing projects</a>. I always build with few basic principles in mind - code standard, usability and progressive enhancement, I also like to experiment with new techniques, never too good (old) to learn a new trick. 
-				<p>Obviously, there are other things I love and feel passionate about, if you are interested take a look at <a href="#" data-hover="what I Love">what I Love</a> in my little world.</p>
+				<p>Obviously, there are other things I love and feel passionate about, take a look at <a href="#" data-hover="what I Love">what I Love</a> in my little world if you are interested.</p>
 			</div>
 		</div>
 
@@ -20,51 +20,53 @@
 
 	<article class="projects" data-page="projects" data-colour="yellow">
 		
-		<div class="project-grid">
-			<h1>Projects</h1>
+		<div class="wrapper">
+			<ul class="project-grid">
+				<h1>Projects</h1>
 
-				<div class="project-item">
-					<img src="http://lorempixel.com/300/200/animals/" /><!--candyland-->
-					<div class="text">
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-						<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
-					</div>
-				</div>
-				<div class="project-item">
-					<img src="http://lorempixel.com/300/200/animals/" /><!--rekorderlig-->
-					<div class="text">
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-						<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
-					</div>
-				</div>
-				<div class="project-item">
-					<img src="http://lorempixel.com/300/200/animals/" /><!--love cravendale-->
-					<div class="text">
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-						<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
-					</div>
-				</div>
-				<div class="project-item">
-					<img src="http://lorempixel.com/300/200/animals/" /><!--csw-->
-					<div class="text">
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-						<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
-					</div>
-				</div>
-				<div class="project-item">
-					<img src="http://lorempixel.com/300/200/animals/" /><!--conference-->
-					<div class="text">
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-						<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
-					</div>
-				</div>
-				<div class="project-item">
-					<img src="http://lorempixel.com/300/200/animals/" /><!--shaun the sheep-->
-					<div class="text">
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-						<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
-					</div>
-				</div>
+					<li class="project-item">
+						<img src="http://lorempixel.com/300/200/animals/" /><!--candyland-->
+						<div class="text">
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+							<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+						</div>
+					</li>
+					<li class="project-item">
+						<img src="http://lorempixel.com/300/200/animals/" /><!--rekorderlig-->
+						<div class="text">
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+							<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+						</div>
+					</li>
+					<li class="project-item">
+						<img src="http://lorempixel.com/300/200/animals/" /><!--love cravendale-->
+						<div class="text">
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+							<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+						</div>
+					</li>
+					<li class="project-item">
+						<img src="http://lorempixel.com/300/200/animals/" /><!--csw-->
+						<div class="text">
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+							<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+						</div>
+					</li>
+					<li class="project-item">
+						<img src="http://lorempixel.com/300/200/animals/" /><!--conference-->
+						<div class="text">
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+							<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+						</div>
+					</li>
+					<li class="project-item">
+						<img src="http://lorempixel.com/300/200/animals/" /><!--shaun the sheep-->
+						<div class="text">
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+							<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+						</div>
+					</li>
+			</ul>
 		</div>
 		
 	</article>
@@ -123,23 +125,23 @@
 		<div class="wrapper">
 			<h1>Clients</h1>
 
-			<div class="client-grid">
-				<img src="assets/image/logos/rekorderlig.png" />
-				<img src="assets/image/logos/visa.png" />
-				<img src="assets/image/logos/coca-cola.png" />
-				<img src="assets/image/logos/tnt.png" />
-				<img src="assets/image/logos/nhs.png" />
-				<img src="assets/image/logos/hello-kitty.png" />
-				<img src="assets/image/logos/candyland.png" />
-				<img src="assets/image/logos/shaun-the-sheep.png" />
-				<img src="assets/image/logos/disney.png" />
-				<img src="assets/image/logos/macau-grand-prix.png" />
-				<img src="assets/image/logos/ibm.png" />
-				<img src="assets/image/logos/fujitsu.png" />
-				<img src="assets/image/logos/siemens.png" />
-				<img src="assets/image/logos/hp.png" />
-				<img src="assets/image/logos/sainsburys.png" />
-			</div>
+			<ul class="client-grid">
+				<li><img src="assets/image/logos/rekorderlig.png" /></li>
+				<li><img src="assets/image/logos/visa.png" /></li>
+				<li><img src="assets/image/logos/coca-cola.png" /></li>
+				<li><img src="assets/image/logos/tnt.png" /></li>
+				<li><img src="assets/image/logos/nhs.png" /></li>
+				<li><img src="assets/image/logos/hello-kitty.png" /></li>
+				<li><img src="assets/image/logos/candyland.png" /></li>
+				<li><img src="assets/image/logos/shaun-the-sheep.png" /></li>
+				<li><img src="assets/image/logos/disney.png" /></li>
+				<li><img src="assets/image/logos/macau-grand-prix.png" /></li>
+				<li><img src="assets/image/logos/ibm.png" /></li>
+				<li><img src="assets/image/logos/fujitsu.png" /></li>
+				<li><img src="assets/image/logos/siemens.png" /></li>
+				<li><img src="assets/image/logos/hp.png" /></li>
+				<li><img src="assets/image/logos/sainsburys.png" /></li>
+			</ul>
 		</div>
 
 		<figure></figure>

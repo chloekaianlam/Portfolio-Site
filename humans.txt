@@ -15,19 +15,19 @@ _______________________________________________________________________________
 
 PEOPLE
 
-	<name> -- <role> -- <twitter>
+	Chloe Kaian Lam -- Web Designer and Developer -- @ChloeKaianLam
 
 _______________________________________________________________________________
 
 TECHNOLOGY
 
-	LESS, Modernizr, jQuery, SMACSS, HTML5BP, Normalize.css
+	LESS, Modernizr, jQuery, HTML5BP, Normalize.css
 
 ______________________________________________________________________________
 
 DEVELOPMENT ENVIRONMENT
 
-	BitBucket, CodeKit
+	GitHub, CodeKit
 
 _______________________________________________________________________________
 
@@ -38,5 +38,5 @@ _______________________________________________________________________________
 THANKS TO
 
 Google
-Bacon
-Coffee
+Cake
+Soup Noodle
