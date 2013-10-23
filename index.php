@@ -25,33 +25,45 @@
 
 				<div class="project-item">
 					<img src="http://lorempixel.com/300/200/animals/" /><!--candyland-->
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-					<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+					<div class="text">
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+						<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+					</div>
 				</div>
 				<div class="project-item">
 					<img src="http://lorempixel.com/300/200/animals/" /><!--rekorderlig-->
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-					<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+					<div class="text">
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+						<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+					</div>
 				</div>
 				<div class="project-item">
 					<img src="http://lorempixel.com/300/200/animals/" /><!--love cravendale-->
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-					<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+					<div class="text">
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+						<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+					</div>
 				</div>
 				<div class="project-item">
 					<img src="http://lorempixel.com/300/200/animals/" /><!--csw-->
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-					<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+					<div class="text">
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+						<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+					</div>
 				</div>
 				<div class="project-item">
 					<img src="http://lorempixel.com/300/200/animals/" /><!--conference-->
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-					<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+					<div class="text">
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+						<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+					</div>
 				</div>
 				<div class="project-item">
 					<img src="http://lorempixel.com/300/200/animals/" /><!--shaun the sheep-->
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-					<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+					<div class="text">
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+						<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+					</div>
 				</div>
 		</div>
 		
@@ -63,7 +75,9 @@
 			<h1>Love</h1>
 
 			<div class="love-bubble">
-				<img class="cook" src="http://lorempixel.com/200/200/animals/" />
+				<div class="bubble">
+					<img class="cook" src="http://lorempixel.com/200/200/animals/" />
+				</div>
 				<img class="bake" src="http://lorempixel.com/200/200/animals/" />
 				<img class="photography" src="http://lorempixel.com/200/200/animals/" />
 				<img class="html" src="http://lorempixel.com/200/200/animals/" />
