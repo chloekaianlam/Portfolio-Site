@@ -79,13 +79,15 @@ a:focus,a:active,button::-moz-focus-inner,input[type="reset"]::-moz-focus-inner,
 .projects .badge{background-image:url(../image/icons/pink-badge.png)}
 .project-bg{position:absolute;bottom:0;left:0;width:100%}
 .project-grid{width:auto}
-.project-grid:after{display:block;clear:both}
-.project-item{-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;-webkit-background-clip:padding-box;-moz-background-clip:padding;width:28%;height:auto;float:left;margin:0 1% 20px;display:block;background-clip:padding-box;background-color:rgba(0,0,0,0.4);border:8px solid rgba(0,0,0,0.4)}.project-item img{width:95%;height:auto;padding:2.5%}
+.project-item{-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;-webkit-background-clip:padding-box;-moz-background-clip:padding;width:600px;height:auto;margin:0 auto 20px;display:block;background-clip:padding-box;background-color:rgba(0,0,0,0.4);border:5px solid rgba(0,0,0,0.4)}.project-item img{width:95%;height:auto;padding:2.5%}
 .project-item .text{padding:0 2.5%}
 .love{top:240%;background:#ffa128}.love p{color:#d97a00}
 .love .badge{background-image:url(../image/icons/teal-badge.png)}
 .love-bubble .bubble{-webkit-border-radius:100%;-moz-border-radius:100%;border-radius:100%;-webkit-background-clip:padding-box;-moz-background-clip:padding;width:33%;height:33%;margin:0 0 20px 0;background-clip:padding-box;background-color:rgba(0,0,0,0.3);border:8px solid rgba(0,0,0,0.3)}
-.contact{top:340%;background:#c2d51b}.contact p,.contact label{color:#92a114}
+.client{top:340%;background:#aa92ae}.client p{color:#705674}
+.client .badge{background-image:url(../image/icons/charcoal-badge.png)}
+.client-grid{list-style:none}.client-grid li{-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;-webkit-background-clip:padding-box;-moz-background-clip:padding;background-clip:padding-box;float:left;width:200px;height:auto;margin:20px 20px 20px 0;border-top:3px solid #705674;border-left:3px solid #705674}.client-grid li img{width:100%;height:auto}
+.contact{top:440%;background:#c2d51b}.contact p,.contact label{color:#92a114}
 .contact .badge{background-image:url(../image/icons/brown-badge.png)}
 form{width:50%;max-width:500px;float:right}
 input,textarea{-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;-webkit-background-clip:padding-box;-moz-background-clip:padding;background-clip:padding-box;background:#3e3e3d;min-height:50px;border:none;width:100%;margin:10px 0;padding:0 10px}
@@ -93,7 +95,4 @@ input,textarea{-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5p
 .button{-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;-webkit-background-clip:padding-box;-moz-background-clip:padding;background-clip:padding-box;-webkit-box-shadow:3px 3px 5px 1px #727e10;-moz-box-shadow:3px 3px 5px 1px #727e10;box-shadow:3px 3px 5px 1px #727e10;width:50%;height:30px;background:#636d0d;text-align:center;margin-top:20px}
 .pencil{margin:0 auto;width:50%}.pencil img{width:100%;height:auto}
 .balloons{width:30%;max-width:400px;position:relative;left:10%;-webkit-animation:10s ease-in-out float-up infinite alternate;-moz-animation:10s ease-in-out float-up infinite alternate;-ms-animation:10s ease-in-out float-up infinite alternate;-o-animation:10s ease-in-out float-up infinite alternate;animation:10s ease-in-out float-up infinite alternate}
-.client{height:auto;top:440%;background:#aa92ae}.client p{color:#705674}
-.client .badge{background-image:url(../image/icons/charcoal-badge.png)}
-.client-grid{list-style:none}.client-grid li{-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;-webkit-background-clip:padding-box;-moz-background-clip:padding;background-clip:padding-box;float:left;width:200px;height:auto;margin:20px 20px 20px 0;border-top:3px solid #705674;border-left:3px solid #705674}.client-grid li img{width:100%;height:auto}
 @media (max-width:1000px){}@media print{*{background:transparent !important;color:#000 !important;text-shadow:none !important;filter:none !important;-ms-filter:none !important} a,a:visited{text-decoration:underline} a[href]:after{content:" (" attr(href) ")"} abbr[title]:after{content:" (" attr(title) ")"} .ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""} pre,blockquote{border:1px solid #999;page-break-inside:avoid} thead{display:table-header-group} tr,img{page-break-inside:avoid} img{max-width:100% !important} @page {margin:.5cm}p,h2,h3{orphans:3;widows:3} h2,h3{page-break-after:avoid}}

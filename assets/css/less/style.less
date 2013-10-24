@@ -118,25 +118,17 @@ body {
 
 .project-grid {
   width: auto;
-  //height: auto;
-  //margin: 0 auto;
-}
-
-.project-grid:after {
-  display: block;
-  clear: both;
 }
 
 .project-item {
   .border-radius(10px);
-  width: 28%;
+  width: 600px;
   height: auto;
-  float: left;
-  margin: 0 1% 20px;
+  margin: 0 auto 20px;
   display: block;
   background-clip: padding-box;
   background-color: rgba(0, 0, 0, 0.4);
-  border: 8px solid rgba(0, 0, 0, 0.4);
+  border: 5px solid rgba(0, 0, 0, 0.4);
 
   img {
     width: 95%;
@@ -183,11 +175,45 @@ body {
 }
 
 /*---------------------------------------------------------------------------
+                                  CLIENT
+---------------------------------------------------------------------------*/
+
+.client {
+  top: 340%;
+  background: @purple;
+
+  p { color: #705674; }
+
+  .badge {
+    background-image: url(../image/icons/charcoal-badge.png);
+  }
+}
+
+.client-grid {
+  list-style: none;
+
+  li {
+    .border-radius(10px);
+    float: left;
+    width: 200px;
+    height: auto;
+    margin: 20px 20px 20px 0;
+    border-top: 3px solid #705674;
+    border-left: 3px solid #705674;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+/*---------------------------------------------------------------------------
                                   CONTACT
 ---------------------------------------------------------------------------*/
 
 .contact {
-  top: 340%;
+  top: 440%;
   background: @lime;
 
   p, label { color: #92a114; }
@@ -246,42 +272,6 @@ input, textarea {
   left: 10%;
   .animation(10s ease-in-out float-up infinite alternate);
 }
-
-/*---------------------------------------------------------------------------
-                                  CLIENT
----------------------------------------------------------------------------*/
-
-.client {
-  height: auto;
-  top: 440%;
-  background: @purple;
-
-  p { color: #705674; }
-
-  .badge {
-    background-image: url(../image/icons/charcoal-badge.png);
-  }
-}
-
-.client-grid {
-  list-style: none;
-
-  li {
-    .border-radius(10px);
-    float: left;
-    width: 200px;
-    height: auto;
-    margin: 20px 20px 20px 0;
-    border-top: 3px solid #705674;
-    border-left: 3px solid #705674;
-
-    img {
-      width: 100%;
-      height: auto;
-    }
-  }
-}
-
 
 /*---------------------------------------------------------------------------
                                 RESPONSIVE

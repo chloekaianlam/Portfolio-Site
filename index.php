@@ -2,16 +2,16 @@
 
 <section class="portfolio">
 
-	<article class="home" data-page="home" data-colour="blue">
+	<section class="home" data-page="home" data-colour="blue">
 
 		<div class="badge"></div>
 		
-		<div class="wrapper">
+		<article class="wrapper">
 			<div class="content">
 				<h1>Home</h1>
 
 				<p>Hi, I'm Chloe. London based Web Designer and Developer, I also like to be called Creative Technologist. I build and design for the web; making functional, usable, pretty websites and LOVE it.</p>
-				<p>Since the epic journey, I've been lucky to be involved in some <a href="#" data-hover="amazing projects">amazing projects</a>. Always build with few basic principles in mind - code standards, usability and progressive enhancement. Experimenting with new techniques, playing with emerging technologies are passion of mine, I am a strong believer of learning is a lifelong journey.</p>
+				<p>Since the epic journey, I've been lucky to be involved in some <a href="#" data-hover="amazing projects">amazing projects</a>. Always build with few basic principles in mind - code standards, usability and progressive enhancement. Love experimenting with new techniques, playing with emerging technologies and I am a strong believer of learning is a lifelong journey.</p>
 			</div>
 		</div>
 
@@ -19,66 +19,46 @@
 
 	<figure class="air-balloon"><img src="../assets/image/animations/air-balloon.png" /></figure>
 
-	<article class="projects" data-page="projects" data-colour="yellow">
+	<section class="projects" data-page="projects" data-colour="yellow">
 
 		<div class="badge"></div>
 		
-		<div class="wrapper">
+		<article class="wrapper">
 			<ul class="project-grid">
 				<h1>Projects</h1>
 
 					<li class="project-item">
-						<img src="http://lorempixel.com/300/200/animals/" /><!--candyland-->
-						<div class="text">
+						<img src="http://lorempixel.com/600/300/animals/" /><!--candyland-->
+						<!--<div class="text">
 							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
 							<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
-						</div>
+						</div>-->
 					</li>
 					<li class="project-item">
-						<img src="http://lorempixel.com/300/200/animals/" /><!--rekorderlig-->
-						<div class="text">
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-							<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
-						</div>
+						<img src="http://lorempixel.com/600/300/animals/" /><!--rekorderlig-->
 					</li>
 					<li class="project-item">
-						<img src="http://lorempixel.com/300/200/animals/" /><!--love cravendale-->
-						<div class="text">
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-							<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
-						</div>
+						<img src="http://lorempixel.com/600/300/animals/" /><!--love cravendale-->
 					</li>
 					<li class="project-item">
-						<img src="http://lorempixel.com/300/200/animals/" /><!--csw-->
-						<div class="text">
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-							<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
-						</div>
+						<img src="http://lorempixel.com/600/300/animals/" /><!--csw-->
 					</li>
 					<li class="project-item">
-						<img src="http://lorempixel.com/300/200/animals/" /><!--conference-->
-						<div class="text">
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-							<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
-						</div>
+						<img src="http://lorempixel.com/600/300/animals/" /><!--conference-->
 					</li>
 					<li class="project-item">
-						<img src="http://lorempixel.com/300/200/animals/" /><!--shaun the sheep-->
-						<div class="text">
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-							<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
-						</div>
+						<img src="http://lorempixel.com/600/300/animals/" /><!--shaun the sheep-->
 					</li>
 			</ul>
-		</div>
+		</article>
 		
-	</article>
+	</section>
 
-	<article class="love" data-page="love" data-colour="orange">
+	<section class="love" data-page="love" data-colour="orange">
 
 		<div class="badge"></div>
 		
-		<div class="wrapper">
+		<article class="wrapper">
 			<h1>Love</h1>
 
 			<div class="love-bubble">
@@ -94,45 +74,17 @@
 				<img class="art" src="http://lorempixel.com/200/200/animals/" />
 				<img class="art" src="http://lorempixel.com/200/200/animals/" />
 			</div>
-		</div>
+		</article>
 		
-	</article>
+	</section>
 
-	<article class="contact" data-page="contact" data-colour="lime">
+	<section class="client" data-page="client" data-colour="purple">
 
 		<div class="badge"></div>
 		
-		<div class="wrapper">
-			<h1>Contact</h1>
-
-			<form action="send.php" method="POST">
-
-				<label for="name">Name:</label><img class="icon" src="assets/image/icons/pencil.png" />
-				<input type="text" name="name" placeholder="Name" />
-
-				<label for="email">Email:</label><img class="icon" src="assets/image/icons/email.png" />
-				<input type="text" name="email" placeholder="Email" />
-
-				<label for="message">Message:</label><img class="icon" src="assets/image/icons/message.png" />
-				<textarea rows="5"></textarea>
-
-				<input type="submit" value="Send" class="button" />
-
-			</form>
-		</div>
-		
-		<figure class="balloons"><img src="assets/image/animations/balloons.png" /></figure>
-
-		<figure class="pencil"><img src="assets/image/animations/pencil.png" /></figure>
-		
-	</article>
-
-	<article class="client" data-page="client" data-colour="purple">
-
-		<div class="badge"></div>
-		
-		<div class="wrapper">
+		<article class="wrapper">
 			<h1>Clients</h1>
+			<p>The people who trusted me so far.</p>
 
 			<ul class="client-grid">
 				<li><img src="assets/image/logos/rekorderlig.png" /></li>
@@ -151,11 +103,40 @@
 				<li><img src="assets/image/logos/hp.png" /></li>
 				<li><img src="assets/image/logos/sainsburys.png" /></li>
 			</ul>
-		</div>
+		</article>
 
 		<figure></figure>
 		
-	</article>
+	</section>
+
+	<section class="contact" data-page="contact" data-colour="lime">
+
+		<div class="badge"></div>
+		
+		<article class="wrapper">
+			<h1>Contact</h1>
+
+			<form action="send.php" method="POST">
+
+				<label for="name">Name:</label><img class="icon" src="assets/image/icons/pencil.png" />
+				<input type="text" name="name" placeholder="Name" />
+
+				<label for="email">Email:</label><img class="icon" src="assets/image/icons/email.png" />
+				<input type="text" name="email" placeholder="Email" />
+
+				<label for="message">Message:</label><img class="icon" src="assets/image/icons/message.png" />
+				<textarea rows="5"></textarea>
+
+				<input type="submit" value="Send" class="button" />
+
+			</form>
+		</article>
+		
+		<figure class="balloons"><img src="assets/image/animations/balloons.png" /></figure>
+
+		<figure class="pencil"><img src="assets/image/animations/pencil.png" /></figure>
+		
+	</section>
 
 </section>
 
