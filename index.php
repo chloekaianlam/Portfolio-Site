@@ -3,14 +3,15 @@
 <section class="portfolio">
 
 	<article class="home" data-page="home" data-colour="blue">
+
+		<div class="badge"></div>
 		
 		<div class="wrapper">
 			<div class="content">
 				<h1>Home</h1>
 
-				<p>Hi, I am Chloe. London based Web Designer and Developer, I also like to be called Creative Technologist. I design and code for the web - dedicating most of my time building functional, usable and pretty websites, and I LOVE it.</p>
-				<p>Since I have started my epic journey, I have been involved in some <a href="#" data-hover="amazing projects">amazing projects</a>. Always build with few basic principles in mind - code standards, usability and progressive enhancement. I also like to experiment with new techniques, play with emerging technologies, strong believer of never too good (old) to learn a new trick. 
-				<p>Obviously, there are other things I love and feel passionate about, take a look at <a href="#" data-hover="what I Love">what I Love</a> in my little world if you are interested.</p>
+				<p>Hi, I'm Chloe. London based Web Designer and Developer, I also like to be called Creative Technologist. I build and design for the web; making functional, usable, pretty websites and LOVE it.</p>
+				<p>Since the epic journey, I've been lucky to be involved in some <a href="#" data-hover="amazing projects">amazing projects</a>. Always build with few basic principles in mind - code standards, usability and progressive enhancement. Experimenting with new techniques, playing with emerging technologies are passion of mine, I am a strong believer of learning is a lifelong journey.</p>
 			</div>
 		</div>
 
@@ -19,6 +20,8 @@
 	<figure class="air-balloon"><img src="../assets/image/animations/air-balloon.png" /></figure>
 
 	<article class="projects" data-page="projects" data-colour="yellow">
+
+		<div class="badge"></div>
 		
 		<div class="wrapper">
 			<ul class="project-grid">
@@ -72,6 +75,8 @@
 	</article>
 
 	<article class="love" data-page="love" data-colour="orange">
+
+		<div class="badge"></div>
 		
 		<div class="wrapper">
 			<h1>Love</h1>
@@ -94,6 +99,8 @@
 	</article>
 
 	<article class="contact" data-page="contact" data-colour="lime">
+
+		<div class="badge"></div>
 		
 		<div class="wrapper">
 			<h1>Contact</h1>
@@ -121,6 +128,8 @@
 	</article>
 
 	<article class="client" data-page="client" data-colour="purple">
+
+		<div class="badge"></div>
 		
 		<div class="wrapper">
 			<h1>Clients</h1>
