@@ -1,5 +1,5 @@
 /*
-    Created by: Chloe Kaian Lam
+    Author: Chloe Kaian Lam - @ChloeKaianLam
 */
 
 @import "normalize";
@@ -14,75 +14,80 @@
 
 body {
   width: 100%;
-  height: 100%;
-  font-size: 28px;
-  min-width: 640px;
+  min-height: 100%;
 }
 
-.portfolio {
+.container {
+  height: auto;
+  min-height: 100%;
+  //position: relative;
+}
+
+.main-nav {
   width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-}
+  height: 50px;
+  position: fixed;
+  background: @grey;
+  z-index: 500;
 
-.home, .projects, .love, .contact, .client, footer {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-}
+  >ul {
+    list-style: none;
+    float: right;
+    margin: 0;
 
-.wrapper {
-  width: 80%;
-  max-width: 960px;
-  margin: 0 auto;
-  clear: both;
+    li {
+      float: left;
+      margin: .5em 1.3em 0 0;
+      font-size: 1em;
+    }
+  }
 }
 
 .content {
-  width: 60%;
+  width: 80%;
   max-width: 800px;
-  margin: 0 5% 0 0;
+  margin: 0 auto;
 }
 
 .badge {
-  width: 100%;
+  width: 200px;
   height: 100%;
   position: absolute;
   background-attachment: fixed;
-  background-position: top left;
+  background-position: 0 10%;
   background-repeat: no-repeat;
   background-size: 200px 235px;
+  z-index: 500;
 }
 
 /*---------------------------------------------------------------------------
-                                    HOME
+                                    ABOUT
 ---------------------------------------------------------------------------*/
 
-.home {
-  top: 0;
-  background: url(../image/background/home-bg.png) no-repeat center @blue;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.about {
+  max-width: 100%;
+  height: 100%;
+  min-height: 600px;
+  background: url(../image/background/clouds.png) bottom no-repeat @blue;
 
-  p { color: #009bab; }
+  .intro { 
+    color: @darken-blue;
+    text-align: center;
+  }
 
   .badge {
+    height: 110%;
     background-image: url(../image/icons/yellow-badge.png);
   }
 }
 
 .air-balloon {
-  width: 30%;
-  max-width: 500px;
-  position: absolute;
-  top: 10%;
-  right: 5%;
-  .animation(10s ease-in-out float-x infinite alternate);
+  width: 25%;
+  max-width: 450px;
+  margin: 0 auto;
+  position: relative;
+  top: 0;
+  .animation(10s ease-in-out floating-balloon infinite alternate);
 
   img {
     width: 100%;
@@ -95,51 +100,87 @@ body {
 ---------------------------------------------------------------------------*/
 
 .projects {
-  top: 100%;
-  height: 140%;
-  background: url(../image/background/projects-bg.png) no-repeat center @yellow;
 
-  p { 
-    color: #f2c800;
-    font-size: 0.8em;
-  }
+  max-width: 100%;
+  height: auto;
+  min-height: 100%;
 
   .badge {
+    height: 170%;
     background-image: url(../image/icons/pink-badge.png);
   }
-}
 
-.project-bg {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-}
+  .project-item {
 
-.project-grid {
-  width: auto;
-}
+    width: 33.333%;
+    float: left;
+    position: relative;
 
-.project-item {
-  .border-radius(10px);
-  width: 600px;
-  height: auto;
-  margin: 0 auto 20px;
-  display: block;
-  background-clip: padding-box;
-  background-color: rgba(0, 0, 0, 0.4);
-  border: 5px solid rgba(0, 0, 0, 0.4);
+    .thumbnail {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      display: block;
+      text-decoration: none;
 
-  img {
-    width: 95%;
-    height: auto;
-    padding: 2.5%;
-  }
+      >img {
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        margin: 0;
+        display: block;
+      }
+    }
 
-  .text {
-    padding: 0 2.5%;
-  }
-}
+    .overlay {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      margin: 0;
+      opacity: 0;
+      background: @yellow;
+      transition: opacity 0.5s ease-in-out 0s;
+
+      &:hover {
+        opacity: 0.5;
+      }
+
+      span {
+        width: 80%;
+        position: absolute;
+        bottom: 10%;
+        right: 10%;
+        font-weight: 700;
+        font-size: 1.8em;
+        text-align: right;
+        border-bottom: 1px solid @rice;
+      }
+
+      .mac, .iphone, .art {
+        width: 30px;
+        height: 30px;
+        display: block;
+        float: left;
+        margin: 0 .2em 0;
+        background: url(../image/icons/imac.png) no-repeat;
+      }
+
+      .iphone {
+        background: url(../image/icons/iphone.png) no-repeat;
+      }
+
+      .art {
+        background: url(../image/icons/pencil.png) no-repeat;
+      }
+
+    } //.overlay
+
+  } //.project-item
+
+} //.projects
+
 
 /*---------------------------------------------------------------------------
                                     LOVE
@@ -148,11 +189,6 @@ body {
 .love {
   top: 240%;
   background: @orange;
-  //background: url(../image/background/love-bg.png) no-repeat center @orange;
-  //-webkit-background-size: cover;
-  //-moz-background-size: cover;
-  //-o-background-size: cover;
-  //background-size: cover;
 
   p { color: #d97a00; }
 
@@ -179,25 +215,30 @@ body {
 ---------------------------------------------------------------------------*/
 
 .client {
-  top: 340%;
+  max-width: 100%;
+  height: auto;
+  min-height: 600px;
   background: @purple;
 
-  p { color: #705674; }
-
   .badge {
+    height: 20%;
+    top: 270%;
     background-image: url(../image/icons/charcoal-badge.png);
   }
 }
 
 .client-grid {
   list-style: none;
+  display: block;
+  margin: 0;
+  padding: 20px 0;
 
   li {
     .border-radius(10px);
     float: left;
-    width: 200px;
+    width: 20%;
     height: auto;
-    margin: 20px 20px 20px 0;
+    margin: 2%;
     border-top: 3px solid #705674;
     border-left: 3px solid #705674;
 
@@ -207,6 +248,7 @@ body {
     }
   }
 }
+
 
 /*---------------------------------------------------------------------------
                                   CONTACT
@@ -219,6 +261,7 @@ body {
   p, label { color: #92a114; }
 
   .badge {
+    top: 300%;
     background-image: url(../image/icons/brown-badge.png);
   }
 }

@@ -1,78 +1,110 @@
 <?php include 'includes/header.php'; ?>
 
-<section class="portfolio">
+<div class="container">
 
-	<section class="home" data-page="home" data-colour="blue">
+	<header>
+
+		<nav class="main-nav">
+			<ul>
+				<li><a class="nav" href="" data-hover="About">About</a></li>
+				<li><a class="nav" href="" data-hover="Projects">Projects</a></li>
+				<li><a class="nav" href="" data-hover="Clients">Clients</a></li>
+				<li><a class="nav" href="" data-hover="Contact">Contact</a></li>
+			</ul>
+		</nav>
+
+	</header>
+
+	<section class="about" data-page="about" data-colour="blue">
 
 		<div class="badge"></div>
-		
-		<article class="wrapper">
-			<div class="content">
-				<h1>Home</h1>
 
-				<p>Hi, I'm Chloe. London based Web Designer and Developer, I also like to be called Creative Technologist. I build and design for the web; making functional, usable, pretty websites and LOVE it.</p>
-				<p>Since the epic journey, I've been lucky to be involved in some <a href="#" data-hover="amazing projects">amazing projects</a>. Always build with few basic principles in mind - code standards, usability and progressive enhancement. Love experimenting with new techniques, playing with emerging technologies and I am a strong believer of learning is a lifelong journey.</p>
-			</div>
+		<div class="content">
+
+			<h1>Hi,</h1>
+
+			<p class="intro">I'm Chloe, London based Web Designer and Developer. There aren't many ways to write an introduction about oneself without sounding narcissistic, so I'm just going to tell you that I love what I do, my passion in life is what I do as a career.</p>
+			<p class="intro">The dream had came true for me, I work very hard to live this dream of mine. Exploring, discovering creativity and technical knowledge is part of my daily venture.</p>
+
 		</div>
 
-	</article>
+		<figure class="air-balloon"><img src="../assets/image/animations/air-balloon.png" /></figure>
 
-	<figure class="air-balloon"><img src="../assets/image/animations/air-balloon.png" /></figure>
-
-	<section class="projects" data-page="projects" data-colour="yellow">
-
-		<div class="badge"></div>
-		
-		<article class="wrapper">
-			<ul class="project-grid">
-				<h1>Projects</h1>
-
-					<li class="project-item">
-						<img src="http://lorempixel.com/600/300/animals/" /><!--candyland-->
-						<!--<div class="text">
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-							<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
-						</div>-->
-					</li>
-					<li class="project-item">
-						<img src="http://lorempixel.com/600/300/animals/" /><!--rekorderlig-->
-					</li>
-					<li class="project-item">
-						<img src="http://lorempixel.com/600/300/animals/" /><!--love cravendale-->
-					</li>
-					<li class="project-item">
-						<img src="http://lorempixel.com/600/300/animals/" /><!--csw-->
-					</li>
-					<li class="project-item">
-						<img src="http://lorempixel.com/600/300/animals/" /><!--conference-->
-					</li>
-					<li class="project-item">
-						<img src="http://lorempixel.com/600/300/animals/" /><!--shaun the sheep-->
-					</li>
-			</ul>
-		</article>
-		
 	</section>
 
-	<section class="love" data-page="love" data-colour="orange">
+	<section class="projects" data-page="projects" data-colour="rice">
 
 		<div class="badge"></div>
-		
-		<article class="wrapper">
-			<h1>Love</h1>
 
-			<div class="love-bubble">
-				<div class="bubble">
-					<img class="cook" src="http://lorempixel.com/200/200/animals/" />
-				</div>
-				<img class="bake" src="http://lorempixel.com/200/200/animals/" />
-				<img class="photography" src="http://lorempixel.com/200/200/animals/" />
-				<img class="html" src="http://lorempixel.com/200/200/animals/" />
-				<img class="css" src="http://lorempixel.com/200/200/animals/" />
-				<img class="javascript" src="http://lorempixel.com/200/200/animals/" />
-				<img class="video" src="http://lorempixel.com/200/200/animals/" />
-				<img class="art" src="http://lorempixel.com/200/200/animals/" />
-				<img class="art" src="http://lorempixel.com/200/200/animals/" />
+		<article class="project-item">
+			<a class="thumbnail" href="http://www.google.co.uk/"><img src="http://dummyimage.com/640x480/000/fff" /></a> 
+			
+			<div class="overlay">
+				<a class="thumbnail" href="http://www.google.co.uk/"><span><i class="mac"></i>CSW</span></a>
+			</div>
+		</article>
+
+		<article class="project-item">
+			<a class="thumbnail" href="http://www.google.co.uk/"><img src="http://dummyimage.com/640x480/000/fff" /></a>
+			
+			<div class="overlay">
+				<a class="thumbnail" href="http://www.google.co.uk/"><span><i class="mac"></i><i class="iphone"></i>Candyland</span></a>
+			</div>
+		</article>
+
+		<article class="project-item">
+			<a class="thumbnail" href="http://www.google.co.uk/"><img src="http://dummyimage.com/640x480/000/fff" /></a>
+			
+			<div class="overlay">
+				<a class="thumbnail" href="http://www.google.co.uk/"><span><i class="mac"></i><i class="iphone"></i>Love Cravendale</span></a>
+			</div>
+		</article>
+
+		<article class="project-item">
+			<a class="thumbnail" href="http://www.google.co.uk/"><img src="http://dummyimage.com/640x480/000/fff" /></a>
+			
+			<div class="overlay">
+				<a class="thumbnail" href="http://www.google.co.uk/"><span><i class="mac"></i>Aunt Bessies</span></a>
+			</div>
+		</article>
+
+		<article class="project-item">
+			<a class="thumbnail" href="http://www.google.co.uk/"><img src="http://dummyimage.com/640x480/000/fff" /></a>
+			
+			<div class="overlay">
+				<a class="thumbnail" href="http://www.google.co.uk/"><span><i class="mac"></i><i class="iphone"></i>Cravendale</span></a>
+			</div>
+		</article>
+
+		<article class="project-item">
+			<a class="thumbnail" href="http://www.google.co.uk/"><img src="http://dummyimage.com/640x480/000/fff" /></a>
+			
+			<div class="overlay">
+				<a class="thumbnail" href="http://www.google.co.uk/"><span><i class="mac"></i>Nominet</span></a>
+			</div>
+		</article>
+
+		<article class="project-item">
+			<a class="thumbnail" href="http://www.google.co.uk/"><img src="http://dummyimage.com/640x480/000/fff" /></a>
+			
+			<div class="overlay">
+				<a class="thumbnail" href="http://www.google.co.uk/"><span><i class="mac"></i>Weight Watchers</span></a>
+			</div>
+		</article>
+
+		<article class="project-item">
+			<a class="thumbnail" href="http://www.google.co.uk/"><img src="http://dummyimage.com/640x480/000/fff" /></a>
+			
+			<div class="overlay">
+				<a class="thumbnail" href="http://www.google.co.uk/"><span><i class="art"></i>Coca Cola</span></a>
+			</div>
+		</article>
+
+		<article class="project-item">
+			<a class="thumbnail" href="http://www.google.co.uk/"><img src="http://dummyimage.com/640x480/000/fff" /></a>
+			
+			<div class="overlay">
+				<a class="thumbnail" href="http://www.google.co.uk/"><span><i class="mac"></i><i class="art"></i>Shaun the Sheep</span></a>
 			</div>
 		</article>
 		
@@ -82,9 +114,7 @@
 
 		<div class="badge"></div>
 		
-		<article class="wrapper">
-			<h1>Clients</h1>
-			<p>The people who trusted me so far.</p>
+		<article class="content">
 
 			<ul class="client-grid">
 				<li><img src="assets/image/logos/rekorderlig.png" /></li>
@@ -113,8 +143,7 @@
 
 		<div class="badge"></div>
 		
-		<article class="wrapper">
-			<h1>Contact</h1>
+		<article class="content">
 
 			<form action="send.php" method="POST">
 
@@ -138,6 +167,6 @@
 		
 	</section>
 
-</section>
+</div>
 
 <?php include 'includes/footer.php'; ?>

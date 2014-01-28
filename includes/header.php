@@ -43,4 +43,4 @@
 	</script>
 
 </head>
-<body data-base-url="<?= function_exists('site_url') ? site_url() : 'http://' . $_SERVER['HTTP_HOST'] ?>">
+<body>
