@@ -17,14 +17,14 @@
 
 	<section class="about" data-page="about" data-colour="blue">
 
-		<div class="badge"></div>
+		<div class="badge first"></div>
 
 		<div class="content">
 
 			<h1>Hi,</h1>
 
-			<p class="intro">I'm Chloe, London based Web Designer and Developer. There aren't many ways to write an introduction about oneself without sounding narcissistic, so I'm just going to tell you that I love what I do, my passion in life is what I do as a career.</p>
-			<p class="intro">The dream had came true for me, I work very hard to live this dream of mine. Exploring, discovering creativity and technical knowledge is part of my daily venture.</p>
+			<p class="intro">I'm Chloe, London based Web Developer and Designer. There aren't many ways to write an introduction about oneself without sounding narcissistic, so I'm just going to tell you that I love what I do. Solving problems creatively, using the technical side of my brain is the ultimate joy of my career.</p>
+			<p class="intro">Challenging and interesting project is generally anyone's cup of tea, this includes myself. One of my perferences is working with start-up companies, their passion does rub off on me, it's a lot of fun creating tailored web experiences that showcase their original concept.</p>
 
 		</div>
 
@@ -34,50 +34,10 @@
 
 	<section class="projects" data-page="projects" data-colour="rice">
 
-		<div class="badge"></div>
+		<div class="badge second"></div>
 
 		<article class="project-item">
-			<a class="thumbnail" href="http://www.google.co.uk/"><img src="http://dummyimage.com/640x480/000/fff" /></a> 
-			
-			<div class="overlay">
-				<a class="thumbnail" href="http://www.google.co.uk/"><span><i class="mac"></i>CSW</span></a>
-			</div>
-		</article>
-
-		<article class="project-item">
-			<a class="thumbnail" href="http://www.google.co.uk/"><img src="http://dummyimage.com/640x480/000/fff" /></a>
-			
-			<div class="overlay">
-				<a class="thumbnail" href="http://www.google.co.uk/"><span><i class="mac"></i><i class="iphone"></i>Candyland</span></a>
-			</div>
-		</article>
-
-		<article class="project-item">
-			<a class="thumbnail" href="http://www.google.co.uk/"><img src="http://dummyimage.com/640x480/000/fff" /></a>
-			
-			<div class="overlay">
-				<a class="thumbnail" href="http://www.google.co.uk/"><span><i class="mac"></i><i class="iphone"></i>Love Cravendale</span></a>
-			</div>
-		</article>
-
-		<article class="project-item">
-			<a class="thumbnail" href="http://www.google.co.uk/"><img src="http://dummyimage.com/640x480/000/fff" /></a>
-			
-			<div class="overlay">
-				<a class="thumbnail" href="http://www.google.co.uk/"><span><i class="mac"></i>Aunt Bessies</span></a>
-			</div>
-		</article>
-
-		<article class="project-item">
-			<a class="thumbnail" href="http://www.google.co.uk/"><img src="http://dummyimage.com/640x480/000/fff" /></a>
-			
-			<div class="overlay">
-				<a class="thumbnail" href="http://www.google.co.uk/"><span><i class="mac"></i><i class="iphone"></i>Cravendale</span></a>
-			</div>
-		</article>
-
-		<article class="project-item">
-			<a class="thumbnail" href="http://www.google.co.uk/"><img src="http://dummyimage.com/640x480/000/fff" /></a>
+			<a class="thumbnail" href="http://www.google.co.uk/"><img src="http://dummyimage.com/760x570/000/fff" /></a> 
 			
 			<div class="overlay">
 				<a class="thumbnail" href="http://www.google.co.uk/"><span><i class="mac"></i>Nominet</span></a>
@@ -85,7 +45,49 @@
 		</article>
 
 		<article class="project-item">
-			<a class="thumbnail" href="http://www.google.co.uk/"><img src="http://dummyimage.com/640x480/000/fff" /></a>
+			<a class="thumbnail" href="http://www.google.co.uk/"><img src="http://dummyimage.com/760x570/000/fff" /></a>
+			
+			<div class="overlay">
+				<a class="thumbnail" href="http://www.google.co.uk/"><span><i class="mac"></i><i class="iphone"></i>Candyland</span></a>
+			</div>
+		</article>
+
+		<article class="project-item">
+			<a class="thumbnail" href="http://www.google.co.uk/"><img src="http://dummyimage.com/760x570/000/fff" /></a>
+			
+			<div class="overlay">
+				<a class="thumbnail" href="http://www.google.co.uk/"><span><i class="mac"></i><i class="iphone"></i>Love Cravendale</span></a>
+			</div>
+		</article>
+
+		<article class="project-item">
+			<a class="thumbnail" href="http://www.google.co.uk/"><img src="http://dummyimage.com/760x570/000/fff" /></a>
+			
+			<div class="overlay">
+				<a class="thumbnail" href="http://www.google.co.uk/"><span><i class="mac"></i>Aunt Bessies</span></a>
+			</div>
+		</article>
+
+		<article class="project-item">
+			<a class="thumbnail" href="http://www.google.co.uk/"><img src="http://dummyimage.com/760x570/000/fff" /></a>
+			
+			<div class="overlay">
+				<a class="thumbnail" href="http://www.google.co.uk/"><span><i class="mac"></i><i class="iphone"></i>Cravendale</span></a>
+			</div>
+		</article>
+		
+		<div class="badge third"></div>
+
+		<article class="project-item">
+			<a class="thumbnail" href="http://www.google.co.uk/"><img src="http://dummyimage.com/760x570/000/fff" /></a>
+			
+			<div class="overlay">
+				<a class="thumbnail" href="http://www.google.co.uk/"><span><i class="mac"></i>Rekorderlig</span></a>
+			</div>
+		</article>
+
+		<article class="project-item">
+			<a class="thumbnail" href="http://www.google.co.uk/"><img src="http://dummyimage.com/760x570/000/fff" /></a>
 			
 			<div class="overlay">
 				<a class="thumbnail" href="http://www.google.co.uk/"><span><i class="mac"></i>Weight Watchers</span></a>
@@ -93,7 +95,7 @@
 		</article>
 
 		<article class="project-item">
-			<a class="thumbnail" href="http://www.google.co.uk/"><img src="http://dummyimage.com/640x480/000/fff" /></a>
+			<a class="thumbnail" href="http://www.google.co.uk/"><img src="http://dummyimage.com/760x570/000/fff" /></a>
 			
 			<div class="overlay">
 				<a class="thumbnail" href="http://www.google.co.uk/"><span><i class="art"></i>Coca Cola</span></a>
@@ -101,7 +103,7 @@
 		</article>
 
 		<article class="project-item">
-			<a class="thumbnail" href="http://www.google.co.uk/"><img src="http://dummyimage.com/640x480/000/fff" /></a>
+			<a class="thumbnail" href="http://www.google.co.uk/"><img src="http://dummyimage.com/760x570/000/fff" /></a>
 			
 			<div class="overlay">
 				<a class="thumbnail" href="http://www.google.co.uk/"><span><i class="mac"></i><i class="art"></i>Shaun the Sheep</span></a>
@@ -112,36 +114,33 @@
 
 	<section class="client" data-page="client" data-colour="purple">
 
-		<div class="badge"></div>
-		
-		<article class="content">
+		<div class="badge fourth"></div>
 
-			<ul class="client-grid">
-				<li><img src="assets/image/logos/rekorderlig.png" /></li>
-				<li><img src="assets/image/logos/visa.png" /></li>
-				<li><img src="assets/image/logos/coca-cola.png" /></li>
-				<li><img src="assets/image/logos/tnt.png" /></li>
-				<li><img src="assets/image/logos/nhs.png" /></li>
-				<li><img src="assets/image/logos/hello-kitty.png" /></li>
-				<li><img src="assets/image/logos/candyland.png" /></li>
-				<li><img src="assets/image/logos/shaun-the-sheep.png" /></li>
-				<li><img src="assets/image/logos/disney.png" /></li>
-				<li><img src="assets/image/logos/macau-grand-prix.png" /></li>
-				<li><img src="assets/image/logos/ibm.png" /></li>
-				<li><img src="assets/image/logos/fujitsu.png" /></li>
-				<li><img src="assets/image/logos/siemens.png" /></li>
-				<li><img src="assets/image/logos/hp.png" /></li>
-				<li><img src="assets/image/logos/sainsburys.png" /></li>
+		<div class="client-grid">
+			<ul>
+				<li class="logo"><img src="assets/image/logos/rekorderlig.png" /></li>
+				<li class="logo"><img src="assets/image/logos/visa.png" /></li>
+				<li class="logo"><img src="assets/image/logos/coca-cola.png" /></li>
+				<li class="logo"><img src="assets/image/logos/hello-kitty.png" /></li>
+				<!--<li class="logo"><img src="assets/image/logos/tnt.png" /></li>
+				<li class="logo"><img src="assets/image/logos/nhs.png" /></li>
+				<li class="logo"><img src="assets/image/logos/candyland.png" /></li>-->
+				<li class="logo"><img src="assets/image/logos/shaun-the-sheep.png" /></li>
+				<li class="logo"><img src="assets/image/logos/disney.png" /></li>
+				<li class="logo"><img src="assets/image/logos/macau-grand-prix.png" /></li>
+				<li class="logo"><img src="assets/image/logos/ibm.png" /></li>
+				<li class="logo"><img src="assets/image/logos/fujitsu.png" /></li>
+				<li class="logo"><img src="assets/image/logos/siemens.png" /></li>
+				<li class="logo"><img src="assets/image/logos/hp.png" /></li>
+				<li class="logo"><img src="assets/image/logos/sainsburys.png" /></li>
 			</ul>
-		</article>
-
-		<figure></figure>
+		</div>
 		
 	</section>
 
 	<section class="contact" data-page="contact" data-colour="lime">
 
-		<div class="badge"></div>
+		<div class="badge fifth"></div>
 		
 		<article class="content">
 
@@ -154,16 +153,17 @@
 				<input type="text" name="email" placeholder="Email" />
 
 				<label for="message">Message:</label><img class="icon" src="assets/image/icons/message.png" />
-				<textarea rows="5"></textarea>
+				<textarea rows="5" name="message"></textarea>
 
 				<input type="submit" value="Send" class="button" />
 
 			</form>
-		</article>
-		
-		<figure class="balloons"><img src="assets/image/animations/balloons.png" /></figure>
 
-		<figure class="pencil"><img src="assets/image/animations/pencil.png" /></figure>
+			<figure class="balloons"><img src="assets/image/animations/balloons.png" /></figure>
+
+		</article>
+
+		<div class="badge sixth"></div>
 		
 	</section>
 

@@ -1,3 +1,16 @@
+	<footer class="footer">
+
+		<h2>hello@chloekaianlam.com</h2>
+
+		<p class="copyright">© 2014 Chloe Kaian Lam</p>
+
+		<ul class="social">
+			<li><a href="https://twitter.com/ChloeKaianLam"><img src="assets/image/icons/twitter.png" alt="Twitter" target="_blank" /></a></li>
+			<li><a href="http://www.linkedin.com/pub/chloe-kaian-lam/17/506/459"><img src="assets/image/icons/linkedin.png" alt="Linkedin" target="_blank" /></a></li>
+		</ul>
+		
+	</footer>
+
 	<script type="text/javascript">
 
 		var Site = {

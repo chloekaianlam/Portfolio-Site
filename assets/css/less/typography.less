@@ -6,7 +6,7 @@ h1, h2, h3, h4, h5, h6 {
 p, a, span, div, label, input, td {
 	font-family: 'Quicksand', sans-serif;
 	font-size: 1.1em;
-	color: #ffffff;
+	color: @white;
 	margin: 0 0 1em;
 }
 
@@ -16,7 +16,7 @@ p, a, span, div, label, input, td {
 }
 
 .nav:before {
-	color: #ffffff;
+	color: @white;
     content: attr(data-hover);
     position: absolute;
     margin-top: 1px;
@@ -29,7 +29,17 @@ p, a, span, div, label, input, td {
 }
 
 h1 {
-	color: #ffffff;
+	color: @white;
 	font-size: 8em;
 	margin: 0;
+	text-align: center;
+}
+
+h2 {
+	color: @grey;
+	text-align: center;
+	padding: 3em 0;
+	font-size: 5em;
+	font-weight: 400;
+	font-family: 'Quicksand', sans-serif;
 }
