@@ -2,20 +2,7 @@
 
 <div class="container">
 
-	<header>
-
-		<nav class="main-nav">
-			<ul>
-				<li><a class="nav" href="" data-hover="About">About</a></li>
-				<li><a class="nav" href="" data-hover="Projects">Projects</a></li>
-				<li><a class="nav" href="" data-hover="Clients">Clients</a></li>
-				<li><a class="nav" href="" data-hover="Contact">Contact</a></li>
-			</ul>
-		</nav>
-
-	</header>
-
-	<section class="about" data-page="about" data-colour="blue">
+	<section class="about" data-page="about" id="about">
 
 		<div class="badge first"></div>
 
@@ -32,7 +19,7 @@
 
 	</section>
 
-	<section class="projects" data-page="projects" data-colour="rice">
+	<section class="projects" data-page="projects" id="project">
 
 		<div class="badge second"></div>
 
@@ -112,7 +99,7 @@
 		
 	</section>
 
-	<section class="client" data-page="client" data-colour="purple">
+	<section class="client" data-page="client" id="client">
 
 		<div class="badge fourth"></div>
 
@@ -138,26 +125,34 @@
 		
 	</section>
 
-	<section class="contact" data-page="contact" data-colour="lime">
+	<section class="contact" data-page="contact" id="contact">
 
 		<div class="badge fifth"></div>
 		
 		<article class="content">
 
-			<form action="send.php" method="POST">
+			<form id="contact-form" action="send.php" method="POST">
 
 				<label for="name">Name:</label><img class="icon" src="assets/image/icons/pencil.png" />
-				<input type="text" name="name" placeholder="Name" />
+				<input type="text" name="name" placeholder="Name" class="" />
 
 				<label for="email">Email:</label><img class="icon" src="assets/image/icons/email.png" />
-				<input type="text" name="email" placeholder="Email" />
+				<input type="text" name="email" placeholder="Email" class="" />
 
 				<label for="message">Message:</label><img class="icon" src="assets/image/icons/message.png" />
-				<textarea rows="5" name="message"></textarea>
+				<textarea rows="5" name="message" class=""></textarea>
 
 				<input type="submit" value="Send" class="button" />
 
 			</form>
+
+			<div class="thanks">
+				<p>Thank you! Speak soon.</p>
+			</div>
+
+			<div class="sorry">
+				<p>Thank you! Speak soon.</p>
+			</div>
 
 			<figure class="balloons"><img src="assets/image/animations/balloons.png" /></figure>
 

@@ -3,10 +3,10 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0.3em 0;
 }
 
-p, a, span, div, label, input, td {
+p, a, span, div, label, input, td, textarea {
 	font-family: 'Quicksand', sans-serif;
 	font-size: 1.1em;
-	color: @white;
+	color: @grey;
 	margin: 0 0 1em;
 }
 
@@ -35,11 +35,41 @@ h1 {
 	text-align: center;
 }
 
-h2 {
+h2, h2:hover {
 	color: @grey;
 	text-align: center;
 	padding: 3em 0;
-	font-size: 5em;
+	font-size: 4em;
 	font-weight: 400;
 	font-family: 'Quicksand', sans-serif;
+}
+
+form {
+  width: 50%;
+  max-width: 500px;
+  margin: 50px 0 0;
+  float: left;
+}
+
+label{
+  color: @grey;
+}
+
+input, textarea {
+  .border-radius(5px);
+  background: #3e3e3d;
+  min-height: 50px;
+  border: none;
+  width: 100%;
+  margin: 10px 0;
+  padding: 0 10px;
+  color: @white;
+
+	&.error {
+		border: 1px solid red;
+	}
+}
+
+textarea {
+  padding: 15px 10px;
 }

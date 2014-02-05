@@ -44,3 +44,16 @@
 
 </head>
 <body>
+
+	<header>
+
+		<nav class="main-nav">
+			<ul>
+				<li><a class="nav" href="#about" data-hover="About">About</a></li>
+				<li><a class="nav" href="#project" data-hover="Projects">Projects</a></li>
+				<li><a class="nav" href="#client" data-hover="Clients">Clients</a></li>
+				<li><a class="nav" href="#contact" data-hover="Contact">Contact</a></li>
+			</ul>
+		</nav>
+
+	</header>

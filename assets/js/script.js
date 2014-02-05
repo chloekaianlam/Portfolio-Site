@@ -1,6 +1,6 @@
 /*
- * Author:
- * Your name here
+ * Author: Chloe Kaian Lam - @ChloeKaianLam
+ * Email: hello@chloekaianlam.com
  */
 
 (function(Site){
@@ -15,7 +15,31 @@
 	( _gaq[0][1].indexOf('-XXX') !== -1 ) ? console.warn('No Google Analytics set') : console.debug('Google Analytics set. Remove this warning.');
 
 
-	// Set up your functions here
+
+	// Vertical scroll function for the main navigation, using the easing plugin for animation
+
+	function smoothScroll() {
+
+		var $nav = $('.nav');
+
+		$nav.bind('click',function(event){
+	        var $anchor = $(this);
+	 
+	        $('html, body').stop().animate({
+	            scrollTop: $($anchor.attr('href')).offset().top
+	        }, 1500,'easeInOutExpo');
+	        
+
+	        $('html, body').stop().animate({
+	            scrollTop: $($anchor.attr('href')).offset().top
+	        }, 1000);
+	        
+	        event.preventDefault();
+	    });
+
+	}
+
+	smoothScroll();
 
 
 
@@ -29,7 +53,66 @@
 			b.setAttribute("data-platform", Site.platform);
 
 
-		// Page is ready, start you stuff!
+		// Validation for contact form and posting via ajax
+
+		var $contactForm = $('#contact-form'),
+			regexp = /^([_a-zA-Z0-9-]+)(\.[_a-zA-Z0-9-]+)*@([a-zA-Z0-9-]+\.)+([a-zA-Z]{2,3})$/;
+
+			$('#contact-form').on('submit', function() {
+
+				var name = $('input[name=name]').val(),
+					email = $('input[name=email]').val(),
+					message = $('textarea[name=message]').val(),
+					data = $(this).serialize(),
+					hasErrors = false;
+
+				if ( name != "" ) {
+					$('[name=name]').removeClass('error');
+				} else {
+					$('[name=name]').addClass('error');
+					hasErrors = true;
+				}
+
+				if ( email != "" && regexp.test(email) ) {
+					$('[name=email]').removeClass('error');
+				} else {
+					$('[name=email]').addClass('error');
+					hasErrors = true;
+				}
+
+				if ( message != "" ) {
+					$('[name=message]').removeClass('error');
+				} else {
+					$('[name=message]').addClass('error');
+					hasErrors = true;
+				}
+
+				if ( hasErrors === false ) {
+				/*
+					$('.submit').fadeOut("slow");
+					$('.loader').fadeIn("slow");
+				*/
+					$.post('send.php', data, function(result) {
+
+						$('.loader').fadeOut("slow");
+
+						if ( result == 'ok' ) { 
+							$('.thanks').addClass('show');
+						}
+
+						if ( result == 'failed' ) { 
+							$('.sorry').addClass('show');
+						}
+
+					});
+
+				}
+
+				console.log(data);
+
+				return false;
+
+			});
 
 
 	});
