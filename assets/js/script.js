@@ -15,32 +15,131 @@
 	( _gaq[0][1].indexOf('-XXX') !== -1 ) ? console.warn('No Google Analytics set') : console.debug('Google Analytics set. Remove this warning.');
 
 
+	var $nav = $('.nav'),
+		contactForm = $('#contact-form'),
+		wrapper = $('.wrapper');
+
 
 	// Vertical scroll function for the main navigation, using the easing plugin for animation
 
 	function smoothScroll() {
 
-		var $nav = $('.nav');
-
-		$nav.bind('click',function(event){
+		$nav.on('click',function(event){
 	        var $anchor = $(this);
 	 
 	        $('html, body').stop().animate({
-	            scrollTop: $($anchor.attr('href')).offset().top
+	            scrollTop: $($anchor.data('page')).offset().top
 	        }, 1500,'easeInOutExpo');
 	        
 
 	        $('html, body').stop().animate({
-	            scrollTop: $($anchor.attr('href')).offset().top
+	            scrollTop: $($anchor.data('page')).offset().top
 	        }, 1000);
 	        
 	        event.preventDefault();
 	    });
 
 	}
-
 	smoothScroll();
+	
+	// Validation for contact form
 
+	function formValidation() {
+
+		contactForm.on('submit', function(e) {
+
+			e.preventDefault();
+
+			var name = $('input[name=name]').val(),
+				email = $('input[name=email]').val(),
+				message = $('textarea[name=message]').val(),
+				data = $(this).serialize(),
+				regexp = /^([_a-zA-Z0-9-]+)(\.[_a-zA-Z0-9-]+)*@([a-zA-Z0-9-]+\.)+([a-zA-Z]{2,3})$/,
+				hasErrors = false;
+
+			if ( name != "" ) {
+				$('[name=name]').removeClass('error');
+			} else {
+				$('[name=name]').addClass('error');
+				hasErrors = true;
+			}
+
+			if ( email != "" && regexp.test(email) ) {
+				$('[name=email]').removeClass('error');
+			} else {
+				$('[name=email]').addClass('error');
+				hasErrors = true;
+			}
+
+			if ( message != "" ) {
+				$('[name=message]').removeClass('error');
+			} else {
+				$('[name=message]').addClass('error');
+				hasErrors = true;
+			}
+
+			if ( hasErrors === false ) {
+			
+				processForm(data);
+
+			}
+
+			console.log(data);
+		});
+
+	}
+	formValidation();
+
+	// Ajax process form function
+
+	function processForm(data) {
+
+		$('.loader').fadeIn("slow");
+	
+		$.post('send.php', data, function(result) {
+
+			$('.loader').fadeOut("slow");
+			contactForm.addClass('hide');
+
+			if ( result === 'ok' ) { 
+				$('.thanks').addClass('show');
+			}
+
+			if ( result === 'failed' ) { 
+				$('.sorry').addClass('show');
+			}
+
+		});
+
+	}
+
+	// Retrieve JSON object for project details
+
+	function getProject() {
+
+		$.getJSON('../assets/json/data.json', function(data) {
+
+			console.log(data);
+
+			var id = data.project[0].id,
+				title = data.project[0].title,
+				hero = data.project[0].hero,
+				intro = data.project[0].intro,
+				images = data.project[0].images;
+
+			$('.item').attr('data-id', id);
+			$('h3').html(title);
+			$('.hero').html('<img src="' + hero +'" />');
+			$('.intro').html('<p>' + intro + '</p>');
+			$.each(images, function(i, image) {
+		        $("<img />").attr("src", image).appendTo('.display');
+		    });
+
+		}).fail(function(jqXhr, textStatus, error) {
+			console.log("ERROR: " + textStatus + ", " + error);
+		});
+	}
+	getProject();
 
 
 	// On page-ready
@@ -52,68 +151,7 @@
 			b.setAttribute("data-useragent", Site.userAgent);
 			b.setAttribute("data-platform", Site.platform);
 
-
-		// Validation for contact form and posting via ajax
-
-		var $contactForm = $('#contact-form'),
-			regexp = /^([_a-zA-Z0-9-]+)(\.[_a-zA-Z0-9-]+)*@([a-zA-Z0-9-]+\.)+([a-zA-Z]{2,3})$/;
-
-			$('#contact-form').on('submit', function() {
-
-				var name = $('input[name=name]').val(),
-					email = $('input[name=email]').val(),
-					message = $('textarea[name=message]').val(),
-					data = $(this).serialize(),
-					hasErrors = false;
-
-				if ( name != "" ) {
-					$('[name=name]').removeClass('error');
-				} else {
-					$('[name=name]').addClass('error');
-					hasErrors = true;
-				}
-
-				if ( email != "" && regexp.test(email) ) {
-					$('[name=email]').removeClass('error');
-				} else {
-					$('[name=email]').addClass('error');
-					hasErrors = true;
-				}
-
-				if ( message != "" ) {
-					$('[name=message]').removeClass('error');
-				} else {
-					$('[name=message]').addClass('error');
-					hasErrors = true;
-				}
-
-				if ( hasErrors === false ) {
-				/*
-					$('.submit').fadeOut("slow");
-					$('.loader').fadeIn("slow");
-				*/
-					$.post('send.php', data, function(result) {
-
-						$('.loader').fadeOut("slow");
-
-						if ( result == 'ok' ) { 
-							$('.thanks').addClass('show');
-						}
-
-						if ( result == 'failed' ) { 
-							$('.sorry').addClass('show');
-						}
-
-					});
-
-				}
-
-				console.log(data);
-
-				return false;
-
-			});
-
+		
 
 	});
 

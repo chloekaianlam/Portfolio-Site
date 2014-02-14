@@ -1,8 +1,19 @@
 <?php include 'includes/header.php'; ?>
 
-<div class="container">
+	<header>
 
-	<section class="about" data-page="about" id="about">
+		<nav class="main-nav">
+			<ul>
+				<li><a class="nav" href="#about" data-page="#about" data-hover="About">About</a></li>
+				<li><a class="nav" href="#project" data-page="#project" data-hover="Projects">Projects</a></li>
+				<li><a class="nav" href="#client" data-page="#client" data-hover="Clients">Clients</a></li>
+				<li><a class="nav" href="#contact" data-page="#contact" data-hover="Contact">Contact</a></li>
+			</ul>
+		</nav>
+
+	</header>
+
+	<section class="about" id="about">
 
 		<div class="badge first"></div>
 
@@ -19,87 +30,87 @@
 
 	</section>
 
-	<section class="projects" data-page="projects" id="project">
+	<section class="projects" id="project">
 
 		<div class="badge second"></div>
 
 		<article class="project-item">
-			<a class="thumbnail" href="http://www.google.co.uk/"><img src="http://dummyimage.com/760x570/000/fff" /></a> 
+			<a class="thumbnail"><img src="http://dummyimage.com/760x570/000/fff" /></a> 
 			
 			<div class="overlay">
-				<a class="thumbnail" href="http://www.google.co.uk/"><span><i class="mac"></i>Nominet</span></a>
+				<a class="thumbnail" href="http://www.google.co.uk/" data-project="#nominet"><span><i class="mac"></i>Nominet</span></a>
 			</div>
 		</article>
 
 		<article class="project-item">
-			<a class="thumbnail" href="http://www.google.co.uk/"><img src="http://dummyimage.com/760x570/000/fff" /></a>
+			<a class="thumbnail"><img src="http://dummyimage.com/760x570/000/fff" /></a>
 			
 			<div class="overlay">
-				<a class="thumbnail" href="http://www.google.co.uk/"><span><i class="mac"></i><i class="iphone"></i>Candyland</span></a>
+				<a class="thumbnail" href="http://www.google.co.uk/" data-project="#candyland"><span><i class="mac"></i><i class="iphone"></i>Candyland</span></a>
 			</div>
 		</article>
 
 		<article class="project-item">
-			<a class="thumbnail" href="http://www.google.co.uk/"><img src="http://dummyimage.com/760x570/000/fff" /></a>
+			<a class="thumbnail"><img src="http://dummyimage.com/760x570/000/fff" /></a>
 			
 			<div class="overlay">
-				<a class="thumbnail" href="http://www.google.co.uk/"><span><i class="mac"></i><i class="iphone"></i>Love Cravendale</span></a>
+				<a class="thumbnail" href="http://www.google.co.uk/" data-project="#love"><span><i class="mac"></i><i class="iphone"></i>Love Cravendale</span></a>
 			</div>
 		</article>
 
 		<article class="project-item">
-			<a class="thumbnail" href="http://www.google.co.uk/"><img src="http://dummyimage.com/760x570/000/fff" /></a>
+			<a class="thumbnail"><img src="http://dummyimage.com/760x570/000/fff" /></a>
 			
 			<div class="overlay">
-				<a class="thumbnail" href="http://www.google.co.uk/"><span><i class="mac"></i>Aunt Bessies</span></a>
+				<a class="thumbnail" href="http://www.google.co.uk/" data-project="#aunt"><span><i class="mac"></i>Aunt Bessies</span></a>
 			</div>
 		</article>
 
 		<article class="project-item">
-			<a class="thumbnail" href="http://www.google.co.uk/"><img src="http://dummyimage.com/760x570/000/fff" /></a>
+			<a class="thumbnail"><img src="http://dummyimage.com/760x570/000/fff" /></a>
 			
 			<div class="overlay">
-				<a class="thumbnail" href="http://www.google.co.uk/"><span><i class="mac"></i><i class="iphone"></i>Cravendale</span></a>
+				<a class="thumbnail" href="http://www.google.co.uk/" data-project="#cravendale"><span><i class="mac"></i><i class="iphone"></i>Cravendale</span></a>
 			</div>
 		</article>
 		
 		<div class="badge third"></div>
 
 		<article class="project-item">
-			<a class="thumbnail" href="http://www.google.co.uk/"><img src="http://dummyimage.com/760x570/000/fff" /></a>
+			<a class="thumbnail"><img src="http://dummyimage.com/760x570/000/fff" /></a>
 			
 			<div class="overlay">
-				<a class="thumbnail" href="http://www.google.co.uk/"><span><i class="mac"></i>Rekorderlig</span></a>
+				<a class="thumbnail" href="http://www.google.co.uk/" data-project="#rekorderlig"><span><i class="mac"></i>Rekorderlig</span></a>
 			</div>
 		</article>
 
 		<article class="project-item">
-			<a class="thumbnail" href="http://www.google.co.uk/"><img src="http://dummyimage.com/760x570/000/fff" /></a>
+			<a class="thumbnail"><img src="http://dummyimage.com/760x570/000/fff" /></a>
 			
 			<div class="overlay">
-				<a class="thumbnail" href="http://www.google.co.uk/"><span><i class="mac"></i>Weight Watchers</span></a>
+				<a class="thumbnail" href="http://www.google.co.uk/" data-project="#weight"><span><i class="mac"></i>Weight Watchers</span></a>
 			</div>
 		</article>
 
 		<article class="project-item">
-			<a class="thumbnail" href="http://www.google.co.uk/"><img src="http://dummyimage.com/760x570/000/fff" /></a>
+			<a class="thumbnail"><img src="http://dummyimage.com/760x570/000/fff" /></a>
 			
 			<div class="overlay">
-				<a class="thumbnail" href="http://www.google.co.uk/"><span><i class="art"></i>Coca Cola</span></a>
+				<a class="thumbnail" href="http://www.google.co.uk/" data-project="#coca"><span><i class="art"></i>Coca Cola</span></a>
 			</div>
 		</article>
 
 		<article class="project-item">
-			<a class="thumbnail" href="http://www.google.co.uk/"><img src="http://dummyimage.com/760x570/000/fff" /></a>
+			<a class="thumbnail"><img src="http://dummyimage.com/760x570/000/fff" /></a>
 			
 			<div class="overlay">
-				<a class="thumbnail" href="http://www.google.co.uk/"><span><i class="mac"></i><i class="art"></i>Shaun the Sheep</span></a>
+				<a class="thumbnail" href="http://www.google.co.uk/" data-project="#shaun"><span><i class="mac"></i><i class="art"></i>Shaun the Sheep</span></a>
 			</div>
 		</article>
 		
 	</section>
 
-	<section class="client" data-page="client" id="client">
+	<section class="client" id="client">
 
 		<div class="badge fourth"></div>
 
@@ -125,11 +136,13 @@
 		
 	</section>
 
-	<section class="contact" data-page="contact" id="contact">
+	<section class="contact" id="contact">
 
 		<div class="badge fifth"></div>
 		
 		<article class="content">
+
+			<div class="loader"></div>
 
 			<form id="contact-form" action="send.php" method="POST">
 
@@ -147,11 +160,25 @@
 			</form>
 
 			<div class="thanks">
-				<p>Thank you! Speak soon.</p>
+				<p>Thanks for sending me a message!</p>
+				<p>I'm always keen to get involved with interesting projects, so you won't have to wait long to hear from me.</p>
+				<p>Anyway, grab yourself a cup of tea and we'll speak soon.</p>
+				<p>For now let's connect:</p>
+				<ul class="social">
+					<li><a href="https://twitter.com/ChloeKaianLam"><img src="assets/image/icons/twitter.png" alt="Twitter" target="_blank" /></a></li>
+					<li><a href="http://www.linkedin.com/pub/chloe-kaian-lam/17/506/459"><img src="assets/image/icons/linkedin.png" alt="Linkedin" target="_blank" /></a></li>
+				</ul>
 			</div>
 
 			<div class="sorry">
-				<p>Thank you! Speak soon.</p>
+				<p>Ooops! My hosting company might have gone for a tea break.</p>
+				<p>If it's not too much trouble please try to send me a message again later. Perhaps grab yourself a cup of tea whilst waiting.</p>
+				<p>We'll speak soon!</p>
+				<p>For now let's connect:</p>
+				<ul class="social">
+					<li><a href="https://twitter.com/ChloeKaianLam"><img src="assets/image/icons/twitter.png" alt="Twitter" target="_blank" /></a></li>
+					<li><a href="http://www.linkedin.com/pub/chloe-kaian-lam/17/506/459"><img src="assets/image/icons/linkedin.png" alt="Linkedin" target="_blank" /></a></li>
+				</ul>
 			</div>
 
 			<figure class="balloons"><img src="assets/image/animations/balloons.png" /></figure>
@@ -162,6 +189,5 @@
 		
 	</section>
 
-</div>
 
 <?php include 'includes/footer.php'; ?>

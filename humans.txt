@@ -15,7 +15,7 @@ _______________________________________________________________________________
 
 PEOPLE
 
-	Chloe Kaian Lam -- Web Designer and Developer -- @ChloeKaianLam
+	Chloe Kaian Lam -- Web Developer and Designer -- @ChloeKaianLam
 
 _______________________________________________________________________________
 
@@ -32,11 +32,12 @@ DEVELOPMENT ENVIRONMENT
 _______________________________________________________________________________
 
 FONTS
-
+	Quicksand, Julius Sans One
 _______________________________________________________________________________
 
 THANKS TO
 
 Google
-Cake
+Tea
 Soup Noodle
+Popcorn

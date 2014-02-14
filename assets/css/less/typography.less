@@ -10,6 +10,10 @@ p, a, span, div, label, input, td, textarea {
 	margin: 0 0 1em;
 }
 
+a {
+	text-decoration: none;
+}
+
 .nav { 
 	text-decoration: none;
 	color: #6a6a6a;
@@ -23,7 +27,7 @@ p, a, span, div, label, input, td, textarea {
     transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
 }
 
-.nav:hover:before, a:hover:focus {
+.nav:hover:before {
 	opacity: 0;
 	transform: scale(0.9);
 }
@@ -47,7 +51,7 @@ h2, h2:hover {
 form {
   width: 50%;
   max-width: 500px;
-  margin: 50px 0 0;
+  margin: 0 auto;
   float: left;
 }
 

@@ -163,6 +163,7 @@ body {
         font-weight: 700;
         font-size: 1.5em;
         text-align: right;
+        color: @white;
         border-bottom: 1px solid @rice;
       }
 
@@ -188,6 +189,35 @@ body {
   } //.project-item
 
 } //.projects
+
+// Project details overlay styling
+
+.project-details {
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+
+  .item {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  .hero {
+    padding: 0 0 20px;
+
+    > img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .intro {
+    width: 90%;
+    padding: 0 5%;
+    text-align: center;
+  }
+}
 
 
 /*---------------------------------------------------------------------------
@@ -300,7 +330,7 @@ body {
 
   .content {
     display: table;
-    padding: 5% 0;
+    padding: 10% 0;
   }
 
 }
@@ -317,6 +347,15 @@ body {
   float: right;
   position: relative;
   right: -22px;
+}
+
+#contact-form {
+  visibility: visible;
+  transition: all 1s ease 0.5s;
+
+  &.hide {
+    visibility: hidden;
+  }
 }
 
 .button {
@@ -345,11 +384,25 @@ body {
 }
 
 .thanks, .sorry {
-  display: none;
+  width: 50%;
+  max-width: 400px;
+  margin: 50px 0 0;
+  position: absolute;
+  visibility: hidden;
+  text-align: center;
+  transition: all 1s ease 1.5s;
 
   &.show {
-    display: block;
+    visibility: visible;
   }
+}
+
+.loader {
+  width: 32px;
+  height: 32px;
+  margin: 0 auto;
+  display: none;
+  background: url('../image/animations/loader.gif') no-repeat center center;
 }
 
 
@@ -382,23 +435,23 @@ body {
     padding: 1em 0 0;
   }
 
-  .social {
-    width: 168px;
-    list-style: none;
-    display: table;
-    margin: 0 auto 20px;
-    padding: 0;
+}
 
-    >li {
-      float: left;
-      margin: 0 0 0 15px;
+.social {
+  width: 168px;
+  list-style: none;
+  display: table;
+  margin: 0 auto 20px;
+  padding: 0;
 
-      img:hover {
-        opacity: 0.85;
-      }
+  >li {
+    float: left;
+    margin: 0 10px 0;
+
+    img:hover {
+      opacity: 0.85;
     }
   }
-
 }
 
 /*---------------------------------------------------------------------------
@@ -429,10 +482,16 @@ body {
     display: none !important;
   }
 
-  form {
+  .contact {
+
+    .content {
+      width: 50% !important;
+    }
+
+  }
+
+  form, .thanks, .sorry {
     width: 100% !important;
-    float: none !important;
-    margin: 50px auto 0 !important;
   }
 
   h2 {
@@ -496,10 +555,6 @@ body {
 
     .content {
       width: 72% !important;
-    }
-
-    form {
-      width: 100%;
     }
 
     .balloons {
