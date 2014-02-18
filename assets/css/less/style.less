@@ -124,7 +124,7 @@ body {
     float: left;
     position: relative;
 
-    .thumbnail {
+    .thumbnail, .underlay {
       width: 100%;
       height: 100%;
       margin: 0;
@@ -192,15 +192,55 @@ body {
 
 // Project details overlay styling
 
+.popup {
+  width: 95%;
+  height: 90%;
+  display: block;
+  margin: 0 2.5%;
+  padding: 20px 0;
+  position: absolute;
+  top: 50px;
+  background: @rice;
+  z-index: 500;
+  visibility: hidden;
+  overflow: auto;
+
+  &.active {
+    visibility: visible;
+  }
+
+  .close {
+    width: 38px;
+    height: 38px;
+    border-radius: 100%;
+    color: @grey;
+    background: @rice;
+    position: absolute;
+    right: 1%;
+    top: 2%;
+    text-align: center;
+    margin: 0;
+    border: 1px solid @grey;
+    font-size: 1em;
+    line-height: 2em;
+  }
+}
+
 .project-details {
   width: 100%;
-  height: auto;
+  height: 90%;
   min-height: 100%;
+  padding: 20px 0;
 
   .item {
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
+    display: none;
+
+    &.show {
+      display: block;
+    }
   }
 
   .hero {
@@ -212,10 +252,21 @@ body {
     }
   }
 
-  .intro {
+  .project-content {
     width: 90%;
-    padding: 0 5%;
-    text-align: center;
+    margin: 0 auto;
+
+    .desc {
+      padding: 20px 0;
+    }
+
+    .display {
+
+      > img {
+        width: 100%;
+        height: auto;
+      }
+    }
   }
 }
 

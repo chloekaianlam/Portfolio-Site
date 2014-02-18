@@ -25,6 +25,7 @@
 	<? // grab hosted version of jQuery, fall back to our version ?>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script src="../assets/js/libs/jquery.easing.1.3.js"></script>
+	<script src="../assets/js/libs/mustache.js"></script>
 	<script>window.jQuery || document.write('<script src="../assets/js/libs/min/jquery.min.js"><\/script>')</script>
 
 	<? // Debug with expanded versions and change to minified versions when going live ?>

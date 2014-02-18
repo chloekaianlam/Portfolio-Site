@@ -35,76 +35,76 @@
 		<div class="badge second"></div>
 
 		<article class="project-item">
-			<a class="thumbnail"><img src="http://dummyimage.com/760x570/000/fff" /></a> 
+			<a class="underlay"><img src="http://dummyimage.com/760x570/000/fff" /></a> 
 			
 			<div class="overlay">
-				<a class="thumbnail" href="http://www.google.co.uk/" data-project="#nominet"><span><i class="mac"></i>Nominet</span></a>
+				<a class="thumbnail" href="#" data-project="p-1"><span><i class="mac"></i>Nominet</span></a>
 			</div>
 		</article>
 
 		<article class="project-item">
-			<a class="thumbnail"><img src="http://dummyimage.com/760x570/000/fff" /></a>
+			<a class="underlay"><img src="http://dummyimage.com/760x570/000/fff" /></a>
 			
 			<div class="overlay">
-				<a class="thumbnail" href="http://www.google.co.uk/" data-project="#candyland"><span><i class="mac"></i><i class="iphone"></i>Candyland</span></a>
+				<a class="thumbnail" href="#" data-project="p-2"><span><i class="mac"></i><i class="iphone"></i>Candyland</span></a>
 			</div>
 		</article>
 
 		<article class="project-item">
-			<a class="thumbnail"><img src="http://dummyimage.com/760x570/000/fff" /></a>
+			<a class="underlay"><img src="http://dummyimage.com/760x570/000/fff" /></a>
 			
 			<div class="overlay">
-				<a class="thumbnail" href="http://www.google.co.uk/" data-project="#love"><span><i class="mac"></i><i class="iphone"></i>Love Cravendale</span></a>
+				<a class="thumbnail" href="#" data-project="p-3"><span><i class="mac"></i><i class="iphone"></i>Love Cravendale</span></a>
 			</div>
 		</article>
 
 		<article class="project-item">
-			<a class="thumbnail"><img src="http://dummyimage.com/760x570/000/fff" /></a>
+			<a class="underlay"><img src="http://dummyimage.com/760x570/000/fff" /></a>
 			
 			<div class="overlay">
-				<a class="thumbnail" href="http://www.google.co.uk/" data-project="#aunt"><span><i class="mac"></i>Aunt Bessies</span></a>
+				<a class="thumbnail" href="#" data-project="p-4"><span><i class="mac"></i>Aunt Bessies</span></a>
 			</div>
 		</article>
 
 		<article class="project-item">
-			<a class="thumbnail"><img src="http://dummyimage.com/760x570/000/fff" /></a>
+			<a class="underlay"><img src="http://dummyimage.com/760x570/000/fff" /></a>
 			
 			<div class="overlay">
-				<a class="thumbnail" href="http://www.google.co.uk/" data-project="#cravendale"><span><i class="mac"></i><i class="iphone"></i>Cravendale</span></a>
+				<a class="thumbnail" href="#" data-project="p-5"><span><i class="mac"></i><i class="iphone"></i>Cravendale</span></a>
 			</div>
 		</article>
 		
 		<div class="badge third"></div>
 
 		<article class="project-item">
-			<a class="thumbnail"><img src="http://dummyimage.com/760x570/000/fff" /></a>
+			<a class="underlay"><img src="http://dummyimage.com/760x570/000/fff" /></a>
 			
 			<div class="overlay">
-				<a class="thumbnail" href="http://www.google.co.uk/" data-project="#rekorderlig"><span><i class="mac"></i>Rekorderlig</span></a>
+				<a class="thumbnail" href="#" data-project="p-6"><span><i class="mac"></i>Rekorderlig</span></a>
 			</div>
 		</article>
 
 		<article class="project-item">
-			<a class="thumbnail"><img src="http://dummyimage.com/760x570/000/fff" /></a>
+			<a class="underlay"><img src="http://dummyimage.com/760x570/000/fff" /></a>
 			
 			<div class="overlay">
-				<a class="thumbnail" href="http://www.google.co.uk/" data-project="#weight"><span><i class="mac"></i>Weight Watchers</span></a>
+				<a class="thumbnail" href="#" data-project="p-7"><span><i class="mac"></i>Weight Watchers</span></a>
 			</div>
 		</article>
 
 		<article class="project-item">
-			<a class="thumbnail"><img src="http://dummyimage.com/760x570/000/fff" /></a>
+			<a class="underlay"><img src="http://dummyimage.com/760x570/000/fff" /></a>
 			
 			<div class="overlay">
-				<a class="thumbnail" href="http://www.google.co.uk/" data-project="#coca"><span><i class="art"></i>Coca Cola</span></a>
+				<a class="thumbnail" href="#" data-project="p-8"><span><i class="art"></i>Coca Cola</span></a>
 			</div>
 		</article>
 
 		<article class="project-item">
-			<a class="thumbnail"><img src="http://dummyimage.com/760x570/000/fff" /></a>
+			<a class="underlay"><img src="http://dummyimage.com/760x570/000/fff" /></a>
 			
 			<div class="overlay">
-				<a class="thumbnail" href="http://www.google.co.uk/" data-project="#shaun"><span><i class="mac"></i><i class="art"></i>Shaun the Sheep</span></a>
+				<a class="thumbnail" href="#" data-project="p-9"><span><i class="mac"></i><i class="art"></i>Shaun the Sheep</span></a>
 			</div>
 		</article>
 		
@@ -188,6 +188,11 @@
 		<div class="badge sixth"></div>
 		
 	</section>
+
+	<div class="popup">
+		<a class="close" href="#">x</a>
+		<section class="project-details"></section>
+	</div>
 
 
 <?php include 'includes/footer.php'; ?>

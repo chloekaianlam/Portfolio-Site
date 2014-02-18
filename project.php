@@ -1,14 +1,13 @@
-<?php include 'includes/header.php'; ?>
+<section class="project-details">
 
-	<section class="project-details">
-		
-		<article class="item" data-id="">
-			<h3></h3>
-			<figure class="hero"></figure>
-			<div class="intro"></div>
+	<article id="p-1" class="item">
+		<h3>Title</h3>
+		<figure class="hero"><img src="../assets/image/projects/nominet.png" alt="" /></figure>
+		<div class="project-content">
+			<p class="desc">Some description about the project.</p>
+			
 			<div class="display"></div>
-		</article>
+		</div>
+	</article>
 
-	</section>
-
-<?php include 'includes/footer.php'; ?>
+</section>

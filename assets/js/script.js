@@ -5,19 +5,21 @@
 
 (function(Site){
 
-	// Remove these warnings when you've resolved them
+	/* Remove these warnings when you've resolved them
 	(!document.getElementsByTagName('title')[0].innerHTML.length) ? console.warn("No page title set") : console.debug('Title set. Remove this warning.');
 	(!document.querySelectorAll('meta[name="description"]')[0].content) ? console.warn("No meta description set") : console.debug('Description set. Remove this warning.');
 	(!document.querySelectorAll('meta[name="keywords"]')[0].content) ? console.warn("No meta keywords set") : console.debug('Keywords set. Remove this warning.');
 	Array.prototype.slice.call(document.querySelectorAll('meta[property*="og:"]')).forEach(function (el) {
 		if ( !el.content.length ) console.warn("No content set for Facebook " + el.getAttribute('property'));
 	});
-	( _gaq[0][1].indexOf('-XXX') !== -1 ) ? console.warn('No Google Analytics set') : console.debug('Google Analytics set. Remove this warning.');
+	( _gaq[0][1].indexOf('-XXX') !== -1 ) ? console.warn('No Google Analytics set') : console.debug('Google Analytics set. Remove this warning.'); */
 
 
 	var $nav = $('.nav'),
 		contactForm = $('#contact-form'),
-		wrapper = $('.wrapper');
+		$thumb = $('.thumbnail'),
+		$popup = $('.popup'),
+		$closeBtn = $('.close');
 
 
 	// Vertical scroll function for the main navigation, using the easing plugin for animation
@@ -113,30 +115,40 @@
 
 	}
 
+
 	// Retrieve JSON object for project details
 
 	function getProject() {
-
 		$.getJSON('../assets/json/data.json', function(data) {
+			var section = $('.project-details');
 
-			console.log(data);
+			$.get('../assets/template/project-list.html', function(template) {
+				var renderedView = Mustache.to_html(unescape(template), data);
 
-			var id = data.project[0].id,
-				title = data.project[0].title,
-				hero = data.project[0].hero,
-				intro = data.project[0].intro,
-				images = data.project[0].images;
-
-			$('.item').attr('data-id', id);
-			$('h3').html(title);
-			$('.hero').html('<img src="' + hero +'" />');
-			$('.intro').html('<p>' + intro + '</p>');
-			$.each(images, function(i, image) {
-		        $("<img />").attr("src", image).appendTo('.display');
-		    });
+				section.html(renderedView);
+			});
 
 		}).fail(function(jqXhr, textStatus, error) {
 			console.log("ERROR: " + textStatus + ", " + error);
+		});
+
+		// Triggering hashtag id for each project
+
+		$thumb.on('click', function() {
+			var thumbID = $(this).data('project');
+
+			console.log(thumbID);
+			$popup.addClass('active');
+
+		// The associated project ID shows the related content
+
+			$('#' + thumbID).addClass('show');
+		});
+
+		$closeBtn.on('click', function() {
+
+			$popup.removeClass('active');
+			$('.item').removeClass('show');
 		});
 	}
 	getProject();
