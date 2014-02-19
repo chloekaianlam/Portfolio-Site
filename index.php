@@ -190,7 +190,7 @@
 	</section>
 
 	<div class="popup">
-		<a class="close" href="#">x</a>
+		<a class="close" href="#project" data-page="#project">x</a>
 		<section class="project-details"></section>
 	</div>
 

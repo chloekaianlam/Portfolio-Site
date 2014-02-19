@@ -15,7 +15,7 @@
 	( _gaq[0][1].indexOf('-XXX') !== -1 ) ? console.warn('No Google Analytics set') : console.debug('Google Analytics set. Remove this warning.'); */
 
 
-	var $nav = $('.nav'),
+	var $nav = $('.nav, .close'),
 		contactForm = $('#contact-form'),
 		$thumb = $('.thumbnail'),
 		$popup = $('.popup'),
@@ -112,17 +112,19 @@
 			}
 
 		});
-
 	}
 
 
 	// Retrieve JSON object for project details
 
 	function getProject() {
+
 		$.getJSON('../assets/json/data.json', function(data) {
+
 			var section = $('.project-details');
 
 			$.get('../assets/template/project-list.html', function(template) {
+
 				var renderedView = Mustache.to_html(unescape(template), data);
 
 				section.html(renderedView);
@@ -138,7 +140,7 @@
 			var thumbID = $(this).data('project');
 
 			console.log(thumbID);
-			$popup.addClass('active');
+			$popup.addClass('active fadeInUpBig');
 
 		// The associated project ID shows the related content
 
@@ -147,8 +149,9 @@
 
 		$closeBtn.on('click', function() {
 
-			$popup.removeClass('active');
+			$popup.removeClass('active fadeInUpBig');
 			$('.item').removeClass('show');
+
 		});
 	}
 	getProject();
