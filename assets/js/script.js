@@ -17,7 +17,6 @@
 
 	var $nav = $('.nav, .close'),
 		contactForm = $('#contact-form'),
-		$thumb = $('.thumbnail'),
 		$popup = $('.popup'),
 		$closeBtn = $('.close');
 
@@ -122,14 +121,13 @@
 		$.getJSON('../assets/json/data.json', function(data) {
 			var section = $('.project-details'),
 				projectPanel = $('.projects');
-			
-			//Event handler is happening before json data is fully loaded
+			// Getting template for thumbnails
 			$.get('../assets/template/project-thumbs.html', function(template) {
 				var itemView = Mustache.to_html(unescape(template), data);
 
 				projectPanel.html(itemView);
 			});
-
+			// Getting project details template 
 			$.get('../assets/template/project-list.html', function(template) {
 				var renderedView = Mustache.to_html(unescape(template), data);
 
@@ -141,11 +139,14 @@
 
 					var thumbID = $(this).data('project');
 
+					$('html, body').animate({ 
+						scrollTop: 0 
+					}, 800,'easeInOutExpo');
+
 					console.log(thumbID);
 					$popup.addClass('active fadeInUpBig');
 
-				// The associated project ID shows the related content
-
+					// The associated project ID shows the related content
 					$('#' + thumbID).addClass('show');
 
 					return false;

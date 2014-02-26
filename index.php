@@ -95,6 +95,11 @@
 -->
 	</section>
 
+	<div class="popup">
+		<a class="close" data-page="#project">x</a>
+		<section class="project-details"></section>
+	</div>
+
 	<div class="badge third"></div>
 
 	<section class="client" id="client">
@@ -175,11 +180,6 @@
 		<div class="badge sixth"></div>
 		
 	</section>
-
-	<div class="popup">
-		<a class="close" href="#project" data-page="#project">x</a>
-		<section class="project-details"></section>
-	</div>
 
 
 <?php include 'includes/footer.php'; ?>
