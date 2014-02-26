@@ -25,7 +25,7 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link href='http://fonts.googleapis.com/css?family=Muli:400,300|Quicksand:400,300,700|Julius+Sans+One' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Allura:400|Quicksand:400,300,700|Julius+Sans+One' rel='stylesheet' type='text/css'>
 
 	<link rel="stylesheet" href="../assets/css/style.css">
 
@@ -44,3 +44,16 @@
 
 </head>
 <body>
+
+<header>
+
+	<nav class="main-nav">
+		<ul>
+			<li><a class="nav" href="#about" data-page="#about" data-hover="About">About</a></li>
+			<li><a class="nav" href="#project" data-page="#project" data-hover="Projects">Projects</a></li>
+			<li><a class="nav" href="#client" data-page="#client" data-hover="Clients">Clients</a></li>
+			<li><a class="nav" href="#contact" data-page="#contact" data-hover="Contact">Contact</a></li>
+		</ul>
+	</nav>
+
+</header>

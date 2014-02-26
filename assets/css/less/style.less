@@ -62,6 +62,16 @@ body {
   z-index: 500;
 }
 
+.second {
+  margin-top: -8%;
+  background-image: url('../image/badges/javascript-badge.png');
+}
+
+.third {
+  margin-top: -35%;
+  background-image: url('../image/badges/html-badge.png');
+}
+
 /*---------------------------------------------------------------------------
                                     ABOUT
 ---------------------------------------------------------------------------*/
@@ -108,15 +118,7 @@ body {
   min-height: 100%;
   display: inline-block;
 
-  .second {
-    margin-top: -8%;
-    background-image: url('../image/badges/javascript-badge.png');
-  }
-
-  .third {
-    margin-top: 40%;
-    background-image: url('../image/badges/html-badge.png');
-  }
+  .item{ display: none; }
 
   .project-item {
 
@@ -199,7 +201,7 @@ body {
   margin: 0 2.5%;
   padding: 20px 0;
   position: absolute;
-  top: 50px;
+  top: 112%;
   background: @rice;
   z-index: 500;
   visibility: hidden;
@@ -218,9 +220,9 @@ body {
     border-radius: 100%;
     color: @grey;
     background: @rice;
-    position: fixed;
-    right: 4%;
-    top: 7%;
+    position: absolute;
+    right: 1%;
+    top: 2%;
     text-align: center;
     margin: 0;
     border: 1px solid @grey;
@@ -234,6 +236,8 @@ body {
   height: 90%;
   min-height: 100%;
   padding: 20px 0;
+
+  .project-item{ display: none; }
 
   .item {
     width: 100%;
@@ -407,10 +411,11 @@ body {
 
 #contact-form {
   visibility: visible;
-  transition: all 1s ease 0.5s;
+  //transition: all 1s ease 0.5s;
 
   &.hide {
     visibility: hidden;
+    transition: all 1s ease 0.5s;
   }
 }
 
@@ -446,7 +451,7 @@ body {
   position: absolute;
   visibility: hidden;
   text-align: center;
-  transition: all 1s ease 1.5s;
+  //transition: all 1s ease 1.5s;
 
   &.show {
     visibility: visible;

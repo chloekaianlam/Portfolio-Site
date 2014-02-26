@@ -1,18 +1,5 @@
 <?php include 'includes/header.php'; ?>
 
-	<header>
-
-		<nav class="main-nav">
-			<ul>
-				<li><a class="nav" href="#about" data-page="#about" data-hover="About">About</a></li>
-				<li><a class="nav" href="#project" data-page="#project" data-hover="Projects">Projects</a></li>
-				<li><a class="nav" href="#client" data-page="#client" data-hover="Clients">Clients</a></li>
-				<li><a class="nav" href="#contact" data-page="#contact" data-hover="Contact">Contact</a></li>
-			</ul>
-		</nav>
-
-	</header>
-
 	<section class="about" id="about">
 
 		<div class="badge first"></div>
@@ -29,16 +16,16 @@
 		<figure class="air-balloon"><img src="../assets/image/animations/air-balloon.png" /></figure>
 
 	</section>
+		
+	<div class="badge second"></div>
 
 	<section class="projects" id="project">
-
-		<div class="badge second"></div>
-
+<!--
 		<article class="project-item">
 			<a class="underlay"><img src="http://dummyimage.com/760x570/000/fff" /></a> 
 			
 			<div class="overlay">
-				<a class="thumbnail" href="#" data-project="p-1"><span><i class="mac"></i>Nominet</span></a>
+				<a class="thumbnail" href="#" data-project="p-1" data-tooltip="Click me and I'll bounce"><span><i class="mac"></i>Nominet</span></a>
 			</div>
 		</article>
 
@@ -73,8 +60,6 @@
 				<a class="thumbnail" href="#" data-project="p-5"><span><i class="mac"></i><i class="iphone"></i>Cravendale</span></a>
 			</div>
 		</article>
-		
-		<div class="badge third"></div>
 
 		<article class="project-item">
 			<a class="underlay"><img src="http://dummyimage.com/760x570/000/fff" /></a>
@@ -107,8 +92,10 @@
 				<a class="thumbnail" href="#" data-project="p-9"><span><i class="mac"></i><i class="art"></i>Shaun the Sheep</span></a>
 			</div>
 		</article>
-		
+-->
 	</section>
+
+	<div class="badge third"></div>
 
 	<section class="client" id="client">
 

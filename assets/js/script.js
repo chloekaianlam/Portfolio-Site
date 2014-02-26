@@ -96,19 +96,19 @@
 
 	function processForm(data) {
 
-		$('.loader').fadeIn("slow");
+		$('.loader').fadeIn('slow');
 	
 		$.post('send.php', data, function(result) {
 
-			$('.loader').fadeOut("slow");
-			contactForm.addClass('hide');
+			$('.loader').fadeOut('slow');
+			contactForm.addClass('fadeOutDown hide');
 
 			if ( result === 'ok' ) { 
-				$('.thanks').addClass('show');
+				$('.thanks').addClass('show bounceInUp');
 			}
 
 			if ( result === 'failed' ) { 
-				$('.sorry').addClass('show');
+				$('.sorry').addClass('show bounceInUp');
 			}
 
 		});
@@ -120,39 +120,52 @@
 	function getProject() {
 
 		$.getJSON('../assets/json/data.json', function(data) {
+			var section = $('.project-details'),
+				projectPanel = $('.projects');
+			
+			//Event handler is happening before json data is fully loaded
+			$.get('../assets/template/project-thumbs.html', function(template) {
+				var itemView = Mustache.to_html(unescape(template), data);
 
-			var section = $('.project-details');
+				projectPanel.html(itemView);
+			});
 
 			$.get('../assets/template/project-list.html', function(template) {
-
 				var renderedView = Mustache.to_html(unescape(template), data);
 
 				section.html(renderedView);
+			}).always(function() {
+
+				// Triggering hashtag id for each project when ajax completed
+				$('.project-item').on('click', function() {
+
+					var thumbID = $(this).data('project');
+
+					console.log(thumbID);
+					$popup.addClass('active fadeInUpBig');
+
+				// The associated project ID shows the related content
+
+					$('#' + thumbID).addClass('show');
+
+					return false;
+				});
+
+				$closeBtn.on('click', function() {
+
+					$popup.removeClass('active fadeInUpBig');
+					$('.item').removeClass('show');
+
+					return false;
+
+				});
 			});
 
 		}).fail(function(jqXhr, textStatus, error) {
+
 			console.log("ERROR: " + textStatus + ", " + error);
 		});
 
-		// Triggering hashtag id for each project
-
-		$thumb.on('click', function() {
-			var thumbID = $(this).data('project');
-
-			console.log(thumbID);
-			$popup.addClass('active fadeInUpBig');
-
-		// The associated project ID shows the related content
-
-			$('#' + thumbID).addClass('show');
-		});
-
-		$closeBtn.on('click', function() {
-
-			$popup.removeClass('active fadeInUpBig');
-			$('.item').removeClass('show');
-
-		});
 	}
 	getProject();
 
