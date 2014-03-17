@@ -1,0 +1,94 @@
+{
+	"projects": [
+		{
+			"projectID": "p-1",
+			"title": "Nominet",
+			"thumbnail": "http://dummyimage.com/760x570/000/fff",
+			"hero": "http://dummyimage.com/920x400/000/fff",
+			"description": "Hosting company requiring a platform for potential customers to search for thier new doamin name.",
+			"desktop": "http://dummyimage.com/920x690/000/fff",
+			"device": "http://dummyimage.com/920x690/000/fff",
+			"mobile": "http://dummyimage.com/920x690/000/fff"
+		},
+		{
+			"projectID": "p-2",
+			"title": "Candyland",
+			"thumbnail": "http://dummyimage.com/760x570/000/fff",
+			"hero": "http://dummyimage.com/920x400/000/fff",
+			"description": "A rebrand for old school sweets we all love, it offers a fun way to understand the land of sweets, rememnizing the sweets we grown up with.",
+			"desktop": "http://dummyimage.com/920x690/000/fff",
+			"device": "http://dummyimage.com/920x690/000/fff",
+			"mobile": "http://dummyimage.com/920x690/000/fff"
+		},
+		{
+			"projectID": "p-3",
+			"title": "Love Cravendale",
+			"thumbnail": "http://dummyimage.com/760x570/000/fff",
+			"hero": "http://dummyimage.com/920x400/000/fff",
+			"description": "Want to redeem rewards for the milk you have ever bought in your life time, this is the site for it.",
+			"desktop": "http://dummyimage.com/920x690/000/fff",
+			"device": "http://dummyimage.com/920x690/000/fff",
+			"mobile": "http://dummyimage.com/920x690/000/fff"
+		},
+		{
+			"projectID": "p-4",
+			"title": "Aunt Bessies",
+			"thumbnail": "http://dummyimage.com/760x570/000/fff",
+			"hero": "http://dummyimage.com/920x400/000/fff",
+			"description": "Slot machine game for this household brand.",
+			"desktop": "http://dummyimage.com/920x690/000/fff",
+			"device": "http://dummyimage.com/920x690/000/fff",
+			"mobile": "http://dummyimage.com/920x690/000/fff"
+		},
+		{
+			"projectID": "p-5",
+			"title": "Cravendale",
+			"thumbnail": "http://dummyimage.com/760x570/000/fff",
+			"hero": "http://dummyimage.com/920x400/000/fff",
+			"description": "Christmas season - it's time to Pass the Parcel. A facebook app to promote the brand by offering gifts througout December.",
+			"desktop": "http://dummyimage.com/920x690/000/fff",
+			"device": "http://dummyimage.com/920x690/000/fff",
+			"mobile": "http://dummyimage.com/920x690/000/fff"
+		},
+		{
+			"projectID": "p-6",
+			"title": "Rekorderlig",
+			"thumbnail": "http://dummyimage.com/760x570/000/fff",
+			"hero": "http://dummyimage.com/920x400/000/fff",
+			"description": "We all love cider in the UK, rekorderlig is the fourth most popular brand here and I was so lucky to build this global site for them to spread the love.",
+			"desktop": "http://dummyimage.com/920x690/000/fff",
+			"device": "http://dummyimage.com/920x690/000/fff",
+			"mobile": "http://dummyimage.com/920x690/000/fff"
+		},
+		{
+			"projectID": "p-7",
+			"title": "Weight Watchers",
+			"thumbnail": "http://dummyimage.com/760x570/000/fff",
+			"hero": "http://dummyimage.com/920x400/000/fff",
+			"description": "Global brand requiring a uk website.",
+			"desktop": "http://dummyimage.com/920x690/000/fff",
+			"device": "http://dummyimage.com/920x690/000/fff",
+			"mobile": "http://dummyimage.com/920x690/000/fff"
+		},
+		{
+			"projectID": "p-8",
+			"title": "Coca Cola",
+			"thumbnail": "http://dummyimage.com/760x570/000/fff",
+			"hero": "http://dummyimage.com/920x400/000/fff",
+			"description": "I don't think this brand needs mentioning, we have all consume one of these before.",
+			"desktop": "http://dummyimage.com/920x690/000/fff",
+			"device": "http://dummyimage.com/920x690/000/fff",
+			"mobile": "http://dummyimage.com/920x690/000/fff"
+		},
+		{
+			"projectID": "p-9",
+			"title": "Shaun the Sheep",
+			"thumbnail": "http://dummyimage.com/760x570/000/fff",
+			"hero": "http://dummyimage.com/920x400/000/fff",
+			"description": "Fun project aiming at children.",
+			"desktop": "http://dummyimage.com/920x690/000/fff",
+			"device": "http://dummyimage.com/920x690/000/fff",
+			"mobile": "http://dummyimage.com/920x690/000/fff"
+		}
+	]
+}
