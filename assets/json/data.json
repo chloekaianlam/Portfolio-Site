@@ -8,7 +8,7 @@
 			"description": "Hosting company requiring a platform for potential customers to search for thier new doamin name.",
 			"link": "http://www.agreatplacetobe.co.uk",
 			"desktop": "../assets/image/projects/desktop/nominet.png",
-			"device": "http://dummyimage.com/920x690/000/fff",
+			"device": "../assets/image/projects/tablet/nominet.png",
 			"mobile": "http://dummyimage.com/920x690/000/fff",
 			"mac-icon": "../assets/image/icons/imac.png",
 			"phone-icon": "../assets/image/icons/iphone.png"
@@ -21,7 +21,7 @@
 			"description": "A rebrand for old school sweets we all love, it offers a fun way to understand the land of sweets, rememnizing the sweets we grown up with.",
 			"link": "http://www.candy-land.com",
 			"desktop": "../assets/image/projects/desktop/candyland.png",
-			"device": "http://dummyimage.com/920x690/000/fff",
+			"device": "../assets/image/projects/tablet/candyland.png",
 			"mobile": "http://dummyimage.com/920x690/000/fff",
 			"mac-icon": "../assets/image/icons/imac.png",
 			"phone-icon": "../assets/image/icons/iphone.png"
@@ -34,7 +34,7 @@
 			"description": "Want to redeem rewards for the milk you have ever bought in your life time, this is the site for it.",
 			"link": "http://www.lovecravendale.co.uk",
 			"desktop": "../assets/image/projects/desktop/love-cravendale.png",
-			"device": "http://dummyimage.com/920x690/000/fff",
+			"device": "../assets/image/projects/tablet/love-cravendale.png",
 			"mobile": "http://dummyimage.com/920x690/000/fff",
 			"mac-icon": "../assets/image/icons/imac.png",
 			"phone-icon": "../assets/image/icons/iphone.png"
@@ -47,7 +47,7 @@
 			"description": "Facebook app - Slot machine game for this household brand.",
 			"link": "https://www.facebook.com/auntbessies",
 			"desktop": "../assets/image/projects/desktop/aunt-bessies.png",
-			"device": "http://dummyimage.com/920x690/000/fff",
+			"device": "../assets/image/projects/tablet/aunt-bessies.png",
 			"mobile": "http://dummyimage.com/920x690/000/fff",
 			"mac-icon": "../assets/image/icons/imac.png",
 			"phone-icon": "../assets/image/icons/iphone.png"
@@ -60,7 +60,7 @@
 			"description": "Christmas season - it's time to Pass the Parcel. A facebook app to promote the brand by offering gifts througout December.",
 			"link": "https://www.facebook.com/Cravendale",
 			"desktop": "../assets/image/projects/desktop/pass-the-parcel.png",
-			"device": "http://dummyimage.com/920x690/000/fff",
+			"device": "../assets/image/projects/tablet/pass-the-parcel.png",
 			"mobile": "http://dummyimage.com/920x690/000/fff",
 			"mac-icon": "../assets/image/icons/imac.png",
 			"phone-icon": "../assets/image/icons/iphone.png"
@@ -73,7 +73,7 @@
 			"description": "We all love cider in the UK, rekorderlig is the fourth most popular brand here and I was so lucky to build this global site for them to spread the love.",
 			"link": "http://www.rekorderlig.com",
 			"desktop": "../assets/image/projects/desktop/rekorderlig.png",
-			"device": "http://dummyimage.com/920x690/000/fff",
+			"device": "../assets/image/projects/tablet/rekorderlig.png",
 			"mobile": "http://dummyimage.com/920x690/000/fff",
 			"mac-icon": "../assets/image/icons/imac.png",
 			"phone-icon": "../assets/image/icons/iphone.png"
@@ -86,8 +86,7 @@
 			"description": "Simple app to get member, raise awareness to the product.",
 			"link": "https://apps.facebook.com/lactofriends/",
 			"desktop": "../assets/image/projects/desktop/lactofree.png",
-			"desktop": "http://dummyimage.com/920x690/000/fff",
-			"device": "http://dummyimage.com/920x690/000/fff",
+			"device": "../assets/image/projects/tablet/lactofree.png",
 			"mobile": "http://dummyimage.com/920x690/000/fff",
 			"mac-icon": "../assets/image/icons/imac.png",
 			"phone-icon": "../assets/image/icons/iphone.png"
@@ -100,7 +99,7 @@
 			"description": "I don't think this brand needs mentioning, we have all consume one of these before.",
 			"link": "http://coca-cola.hk",
 			"desktop": "../assets/image/projects/desktop/coca-cola.png",
-			"device": "http://dummyimage.com/920x690/000/fff",
+			"device": "../assets/image/projects/tablet/coca-cola.png",
 			"mobile": "http://dummyimage.com/920x690/000/fff",
 			"mac-icon": "../assets/image/icons/imac.png",
 			"phone-icon": "../assets/image/icons/iphone.png"
@@ -113,7 +112,7 @@
 			"description": "Global brand requiring a uk website.",
 			"link": "http://www.weightwatchers.co.uk",
 			"desktop": "../assets/image/projects/desktop/weight-watchers.png",
-			"device": "http://dummyimage.com/920x690/000/fff",
+			"device": "../assets/image/projects/tablet/weight-watchers.png",
 			"mobile": "http://dummyimage.com/920x690/000/fff",
 			"mac-icon": "../assets/image/icons/imac.png",
 			"phone-icon": "../assets/image/icons/iphone.png"
@@ -126,7 +125,7 @@
 			"description": "Something from Dods",
 			"link": "http://dodsgovernment.co.uk",
 			"desktop": "../assets/image/projects/desktop/dods-government.png",
-			"device": "http://dummyimage.com/920x690/000/fff",
+			"device": "../assets/image/projects/tablet/dods-government.png",
 			"mobile": "http://dummyimage.com/920x690/000/fff",
 			"mac-icon": "../assets/image/icons/imac.png",
 			"phone-icon": "../assets/image/icons/iphone.png"
@@ -137,9 +136,9 @@
 			"thumbnail": "../assets/image/projects/thumbs/macau-tickets.png",
 			"hero": "../assets/image/projects/hero/macau-tickets.png",
 			"description": "Ticketing service website provide purchasing and event management system.",
-			"link": "auticket.com",
+			"link": "http://www.macauticket.com",
 			"desktop": "../assets/image/projects/desktop/macau-tickets.png",
-			"device": "http://dummyimage.com/920x690/000/fff",
+			"device": "../assets/image/projects/tablet/macau-ticket.png",
 			"mobile": "http://dummyimage.com/920x690/000/fff",
 			"mac-icon": "../assets/image/icons/imac.png",
 			"phone-icon": "../assets/image/icons/iphone.png"
@@ -152,7 +151,7 @@
 			"description": "Fun project aiming at children.",
 			"link": "http://www.shaunthesheep.com",
 			"desktop": "../assets/image/projects/desktop/shaun-the-sheep.png",
-			"device": "http://dummyimage.com/920x690/000/fff",
+			"device": "../assets/image/projects/tablet/shaun-the-sheep.png",
 			"mobile": "http://dummyimage.com/920x690/000/fff",
 			"mac-icon": "../assets/image/icons/imac.png",
 			"phone-icon": "../assets/image/icons/iphone.png"
