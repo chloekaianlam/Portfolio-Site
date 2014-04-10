@@ -1,21 +1,14 @@
 ## Assets
 
-<<<<<<< HEAD
 In here you'll find a complete directory structure ready to go, which was initially proposed by Nate V.
 
-=======
->>>>>>> FETCH_HEAD
 It's supposed to follow a similar convention to the Outside Line GCMS structure, with some room for minified files within css/ and js/.
 
 #### CodeKit
 
 CodeKit isn't a requirement but it sure as hell is a rad tool. At least download the trial and give it a shot - you won't look back.
 
-<<<<<<< HEAD
 It handles pretty much all CSS processors under the sun and minifies/compresses/obfuscates both CSS and Javascript. It's FTW. Speak to Nate V about getting set up when you first use it.
-=======
-It handles pretty much all CSS processors under the sun and minifies/compresses/obfuscates both CSS and Javascript.
->>>>>>> FETCH_HEAD
 
 #### .htaccess
 

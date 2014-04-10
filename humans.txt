@@ -21,11 +21,7 @@ _______________________________________________________________________________
 
 TECHNOLOGY
 
-<<<<<<< HEAD
 	LESS, Modernizr, jQuery, HTML5BP, Normalize.css
-=======
-	LESS, Modernizr, jQuery, HTML5BP, Normalize.css, Mustache
->>>>>>> FETCH_HEAD
 
 ______________________________________________________________________________
 
