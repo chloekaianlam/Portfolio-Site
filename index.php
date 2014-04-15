@@ -8,8 +8,8 @@
 
 			<h1>Hi,</h1>
 
-			<p class="intro">I'm Chloe, London based Web Developer and Designer. There aren't many ways to write an introduction about oneself without sounding narcissistic, so I'm just going to tell you that I love what I do. Solving problems creatively, using the technical side of my brain is the ultimate joy of my career.</p>
-			<p class="intro">Challenging and interesting project is generally anyone's cup of tea, this includes myself. One of my perferences is working with start-up companies, their passion does rub off on me, it's a lot of fun creating tailored web experiences that showcase their original concept.</p>
+			<p class="intro">I'm Chloe, London based Web Developer and Designer. I love creating usable websites, solving problems creatively. Using the technical side of my brain to devise solution for businesses and brands is what I enjoy in my career. I will dedicate time to understand your requirement to create a tailored website that meets your specific needs.</p>
+			<p class="intro">One of my preferences is to work with start-up companies, the passion and positive attitude they have towards their ideas and obstacles is something I can relate closely to. I find creating web application that reflects the original concept is a lot of fun and challenging at the same time.</p>
 
 		</div>
 

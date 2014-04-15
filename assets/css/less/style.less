@@ -134,7 +134,7 @@ body {
       padding: 0;
       display: block;
       text-decoration: none;
-      .border-radius(50px);
+      .border-radius(30px);
 
       >img {
         width: auto;
@@ -154,7 +154,7 @@ body {
       opacity: 0;
       background: @orange;
       transition: opacity 0.5s ease-in-out 0s;
-      .border-radius(50px);
+      .border-radius(30px);
 
       &:hover {
         opacity: 0.9;
@@ -223,9 +223,9 @@ body {
     border-radius: 100%;
     color: @grey;
     background: @rice;
-    position: absolute;
-    right: 1%;
-    top: 2%;
+    position: fixed;
+    right: 4%;
+    top: 8%;
     text-align: center;
     margin: 0;
     border: 1px solid @grey;
@@ -256,7 +256,7 @@ body {
   }
 
   .hero {
-    margin: 50px 0;
+    margin: 50px 0 20px;
 
     > img {
       width: 100%;
@@ -271,6 +271,20 @@ body {
     .desc {
       padding: 20px 0;
       text-align: center;
+    }
+
+    p {
+      line-height: 1.5em;
+    }
+
+    .project-link {
+      text-align: center;
+      margin-bottom: 20px;
+      display: block;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
 
     .display {
@@ -394,7 +408,7 @@ body {
 
   .content {
     display: table;
-    padding: 10% 0;
+    padding: 10% 0 2%;
   }
 
 }
@@ -403,7 +417,6 @@ body {
   width: 75%;
   display: block;
   content: '';
-  border-bottom: 2px dotted @grey;
   margin: 80px auto 0;
 }
 
@@ -479,8 +492,9 @@ body {
 
   width: 100%;
   height: auto;
-  min-height: 500px;
-  background: @rice;
+  min-height: 1000px;
+  background: url('../image/background/white-brick.png') no-repeat center @rice;
+  background-size: cover;
 
   .pencil {
     width: 50%;
@@ -506,7 +520,7 @@ body {
   width: 168px;
   list-style: none;
   display: table;
-  margin: 0 auto 20px;
+  margin: 100px auto 20px;
   padding: 0;
 
   >li {
